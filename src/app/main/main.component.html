@@ -1,0 +1,47 @@
+
+<div fxLayout="column" style="height: 100vh;
+width: 100%; background-color: rgb(188, 183, 193);">
+
+  <div fxFlex="60px">
+    <app-toolbar/>
+  </div>
+
+ <div style="padding:10px">
+
+      <mat-card style="height:60%">
+        <div style="height:200px;" [style.background]="backgroundColr">
+        
+        </div>
+      </mat-card>
+
+ </div>
+ <div fxFlex="400px" style="padding:10px">
+      <label id="example-radio-group-label">Select Color Name: </label>
+    <mat-radio-group
+      aria-labelledby="example-radio-group-label"
+      class="example-radio-group"
+      [(ngModel)]="choosedColor">
+      <mat-radio-button class="example-radio-button" *ngFor="let option of seasons" [value]="option">
+        {{option}}
+      </mat-radio-button>
+    </mat-radio-group>
+    <!-- <div>Your Selected Color is: {{choosedColor}}</div> -->
+ </div>
+<div fxLayout="Row" style="height:100px; padding: 10px;">
+  <div fxFlex="50">
+    Score : {{score}} 
+  </div >
+
+  <div fxFlex="30">
+    <button (click)="nextColor()" mat-raised-button  color="primary">Next</button>
+  </div>
+
+  <div fxFlex="20">
+    <app-timer [seconds]="myCount"
+    (change)="countChange($event)"></app-timer>
+  </div>
+
+  
+</div>
+
+</div>

@@ -14,12 +14,17 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatRadioModule} from '@angular/material/radio';
 import { FormsModule } from '@angular/forms';
 import { NgFor } from '@angular/common';
+import { MainComponent } from './main/main.component';
+import { TimerComponent } from './timer/timer.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     CardqComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    MainComponent,
+    TimerComponent
   ],
   imports: [
     BrowserModule,
