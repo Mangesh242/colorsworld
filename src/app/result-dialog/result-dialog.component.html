@@ -1,1 +1,31 @@
-<p>result-dialog works!</p>
+
+<div style="padding:10px" fxLayout="column"> 
+    <div fxFlex="40px">
+        <div fxFlex="38">
+
+        </div>
+        <div fxFlex="20">
+             {{msg}}
+             </div>
+</div>
+
+<div style="margin-left: 40%;font-size: 86px;" fxFlex="100px">
+    {{score}}
+</div>
+
+<div fxFlex="40px" fxLayout="row">
+    <div fxFlex="38">
+
+    </div>
+    <div fxFlex="20">
+        <button (click)="onNextClick('next')" mat-raised-button  color="secondary">Next</button>
+    </div>
+    
+    <div fxFlex="42">
+        <button  *ngIf="this.score==0" (click)="onNextClick('retry')" mat-raised-button  color="secondary">Retry</button>
+    </div>
+</div>
+ 
+
+
+</div>

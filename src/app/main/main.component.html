@@ -5,26 +5,38 @@ width: 100%; background-color: rgb(188, 183, 193);">
     <app-toolbar/>
   </div>
 
- <div fxFlex="300px" style="padding:10px">
+ <div fxFlex="300px"  style="padding:10px">
 
-      <mat-card style="height:99%">
-        <div style="height:300px;" [style.background]="backgroundColr">
-        
-        </div>
-      </mat-card>
+    <div fxFlex="100">
+        <mat-card style="height:99%">
+            <div style="height:300px;" [style.background]="backgroundColr">
+             
+            </div>
+          </mat-card>
+    </div>     
 
  </div>
  
- <div fxFlex="300px" style="padding:10px">
-      <label id="example-radio-group-label">Select Color Name: </label>
-    <mat-radio-group
-      aria-labelledby="example-radio-group-label"
-      class="example-radio-group"
-      [(ngModel)]="choosedColor">
-      <mat-radio-button class="example-radio-button" *ngFor="let option of seasons" [value]="option">
-        {{option}}
-      </mat-radio-button>
-    </mat-radio-group>
+ <div fxFlex="300px" style="padding:10px" fxLayout="row">
+
+    <div fxFlex="60">
+        <label id="example-radio-group-label">Select Color Name: </label>
+        <mat-radio-group
+          aria-labelledby="example-radio-group-label"
+          class="example-radio-group"
+          [(ngModel)]="choosedColor">
+          <mat-radio-button class="example-radio-button" *ngFor="let option of seasons" [value]="option">
+            {{option}}
+          </mat-radio-button>
+        </mat-radio-group>
+    </div>
+
+    <div fxFlex="40">
+        <app-timer  [seconds]="myCount"
+        (change)="countChange($event)" *ngIf="displayTimer"></app-timer>
+
+    </div>
+     
     <!-- <div>Your Selected Color is: {{choosedColor}}</div> -->
  </div>
 <div fxLayout="Row" style="height:100px; padding: 10px;">
@@ -33,12 +45,15 @@ width: 100%; background-color: rgb(188, 183, 193);">
   </div >
 
   <div fxFlex="30">
-    <button (click)="nextColor()" mat-raised-button  color="primary">Next</button>
+    <div *ngIf="choosedColor!==undefined">
+        <button (click)="openDialog()" mat-raised-button  color="primary">Submit</button>
+    </div>
+    
   </div>
 
   <div fxFlex="20">
-    <app-timer *ngIf="displayTimer" [seconds]="myCount"
-    (change)="countChange($event)"></app-timer>
+    <!-- <app-timer *ngIf="displayTimer" [seconds]="myCount"
+    (change)="countChange($event)"></app-timer> -->
   </div>
 
   

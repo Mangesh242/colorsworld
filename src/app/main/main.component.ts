@@ -27,38 +27,53 @@ export class MainComponent {
 
   myCount: number = 10;
   displayTimer:boolean=true;
-  countChange(event:any) {
-    
+  result:string|undefined;
+  correctOption:String|undefined;
+
+  countChange(event:any) {    
     this.myCount = event;
     if(this.myCount==0){
+      // this.choosedColor=undefined;
       this.displayTimer=false;
-      this.dialog.open(ResultDialogComponent,{
-        width:'400px',
-        height:'200px',
-        data: { 
-               score : this.score,
-               time:this.myCount,
-               mode: AppConstants.mode.timeup
-              }
-      }).afterClosed().subscribe(
-        (res)=>{
-          this.nextColor();
-          this.myCount=10;
-          this.displayTimer=true;
-        }
-      );
+     this.openDialog();
       
     }
   }
 
   openDialog() {
-    
+    this.resultCheck();
+
+    this.displayTimer=false;
+    this.dialog.open(ResultDialogComponent,{
+      width:'400px',
+      height:'200px',
+      data: { 
+             totalScore : this.score,
+             time:this.myCount,
+             mode: AppConstants.mode.timeup,
+             res:this.result,
+             name:this.correctOption
+            }
+    }).afterClosed().subscribe(
+      (res)=>{
+        if(res!==undefined){
+
+        this.myCount=10;
+        this.score+=res.score;
+        if(res.action == 'next'){
+          this.nextColor();
+        }
+        
+        
+        this.displayTimer=true;
+        this.choosedColor=undefined;
+        this.correctOption=undefined;
+      }
+      }
+    );
   }
 
   nextColor(){
-    
-    this.resultCheck();
-
     this.counter=this.counter+1;
     if(this.counter==this.appColorsList.length){
       this.counter=0;
@@ -71,11 +86,14 @@ export class MainComponent {
   }
 
   private resultCheck() {
+    debugger;
     if (this.choosedColor !== undefined) {
       if (this.choosedColor === this.currentObject["name"]) {
-        
-        
-        this.score = this.score + 1;
+        this.result="Correct";
+        this.correctOption=this.choosedColor;
+      }else{
+        this.result="InCorrect";
+        this.correctOption=this.currentObject["name"];
       }
 
     }

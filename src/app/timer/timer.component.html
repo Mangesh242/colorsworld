@@ -1,1 +1,18 @@
-<div class="timer">{{ seconds }}</div>
+<div fxLayout="column" style="height: 400px;" >
+    <div fxFlex="100px"> 
+
+    </div>
+    <div class="timer" fxFlex="200px" style="font-size: 100px;"
+    [ngClass]="[
+    seconds > 5 ?'excellent':'',
+    seconds>3 && seconds< 6  ?'great': '',
+    seconds>0?'good': ''
+    ]"
+    >{{ seconds }}</div>
+
+    <div fxFlex="100px"> 
+
+    </div>
+</div>
+
+
