@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { AppConstants } from '../app.constants';
+import {MatDialog, MatDialogRef, MatDialogModule} from '@angular/material/dialog';
+import { ResultDialogComponent } from '../result-dialog/result-dialog.component';
 
 @Component({
   selector: 'app-main',
@@ -17,21 +19,46 @@ export class MainComponent {
   score:number=0;
   ngOnInit(): void {
       this.nextColor();
+      
+  }
+  constructor(public dialog: MatDialog){
+
   }
 
   myCount: number = 10;
+  displayTimer:boolean=true;
   countChange(event:any) {
     
     this.myCount = event;
     if(this.myCount==0){
-      this.nextColor();
-      this.myCount=10;
+      this.displayTimer=false;
+      this.dialog.open(ResultDialogComponent,{
+        width:'400px',
+        height:'200px',
+        data: { 
+               score : this.score,
+               time:this.myCount,
+               mode: AppConstants.mode.timeup
+              }
+      }).afterClosed().subscribe(
+        (res)=>{
+          this.nextColor();
+          this.myCount=10;
+          this.displayTimer=true;
+        }
+      );
+      
     }
+  }
+
+  openDialog() {
+    
   }
 
   nextColor(){
     
     this.resultCheck();
+
     this.counter=this.counter+1;
     if(this.counter==this.appColorsList.length){
       this.counter=0;
@@ -46,6 +73,8 @@ export class MainComponent {
   private resultCheck() {
     if (this.choosedColor !== undefined) {
       if (this.choosedColor === this.currentObject["name"]) {
+        
+        
         this.score = this.score + 1;
       }
 

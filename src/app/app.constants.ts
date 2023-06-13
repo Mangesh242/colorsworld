@@ -1,5 +1,11 @@
 export class AppConstants{
 
+    public static mode={
+        correct:"correct",
+        wrong:"wrong",
+        timeup:"timeup"
+    }
+
     public static colorsList =
     [
         {
