@@ -13,7 +13,7 @@
     {{score}}
 </div>
 
-<div fxFlex="40px" fxLayout="row">
+<div fxFlex="40px" fxLayout="row" *ngIf="this.score!=0">
     <div fxFlex="38">
 
     </div>
@@ -21,8 +21,22 @@
         <button (click)="onNextClick('next')" mat-raised-button  color="secondary">Next</button>
     </div>
     
-    <div fxFlex="42">
-        <button  *ngIf="this.score==0" (click)="onNextClick('retry')" mat-raised-button  color="secondary">Retry</button>
+</div>
+
+
+<div *ngIf="this.score==0">
+    <div fxFlex="25">
+
+    </div>
+    <div fxFlex="25">
+        <button (click)="onNextClick('next')" mat-raised-button  color="secondary">Next</button>
+    </div>
+    
+    <div fxFlex="25">
+        <button (click)="onNextClick('retry')" mat-raised-button  color="secondary">Retry</button>
+    </div>
+    <div fxFlex="25">
+
     </div>
 </div>
  
