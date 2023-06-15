@@ -28,8 +28,9 @@ export class ResultDialogComponent implements OnInit {
   }
   ngOnInit():void{
     
+    
     if(this.res !== undefined && this.res.toLowerCase()==="correct"){
-      debugger;
+      
     if(this.time>5){
         this.msg="EXCELLENT!";
         this.score=3;
@@ -47,7 +48,7 @@ export class ResultDialogComponent implements OnInit {
     }
     else 
     {
-      this.msg="Incorrect Option.Correct Option is:\n";
+      this.msg="Incorrect. Correct Option is:\n";
       this.msg+=this.name;
       this.score=0;
     }

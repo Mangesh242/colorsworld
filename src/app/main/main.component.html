@@ -1,24 +1,30 @@
 
-<div fxLayout="column" style="height: 100vh;
+<div fxLayout="column" style="height: 99vh;
 width: 100%; background-color: rgb(226, 216, 235);">
-  <div fxFlex="60px">
+  <div fxFlex="8">
     <app-toolbar/>
+   </div>
+
+  <div fxFlex="4" style="padding:10px;" fxLayout="row">
+    <div fxFlex="80">
+
+    </div>
+    <div fxFlex="20">
+      Score : {{score}} 
+    </div>
+    
   </div>
 
- <div fxFlex="300px"  style="padding:10px">
-
+ <div fxFlex="50"  style="padding:10px">
     <div fxFlex="100">
         <mat-card style="height:99%">
-            <div style="height:300px;" [style.background]="backgroundColr">
-             
+            <div style="height:100%;" [style.background]="backgroundColr">
             </div>
           </mat-card>
     </div>     
-
  </div>
  
- <div fxFlex="300px" style="padding:10px" fxLayout="row">
-
+ <div fxFlex="30" style="padding:10px" fxLayout="row">
     <div fxFlex="60">
         <label id="example-radio-group-label">Select Color Name: </label>
         <mat-radio-group
@@ -34,29 +40,25 @@ width: 100%; background-color: rgb(226, 216, 235);">
     <div fxFlex="40">
         <app-timer  [seconds]="myCount"
         (change)="countChange($event)" *ngIf="displayTimer"></app-timer>
-
     </div>
      
     <!-- <div>Your Selected Color is: {{choosedColor}}</div> -->
  </div>
-<div fxLayout="Row" style="height:100px; padding: 10px;">
-  <div fxFlex="50">
-    Score : {{score}} 
-  </div >
 
-  <div fxFlex="30">
-    <div *ngIf="choosedColor!==undefined">
-        <button (click)="openDialog()" mat-raised-button  color="primary">Submit</button>
+  <div fxFlex="8" fxLayout="Row" style="padding: 10px;">
+ 
+    <div (click)="openDialog()" style="background-color: aqua; width: 100%;border-radius: 4px;position: relative;">
+          <div style="position: absolute;
+          top: 100%;
+          left: 54%;
+          margin: -28px 0 0 -50px;">Submit</div> 
     </div>
-    
+    <!-- <div *ngIf="choosedColor!==undefined">
+        <button (click)="openDialog()" mat-raised-button  color="primary" style="  width: 100%!important;
+        min-width: unset!important;">Submit</button>
+        </div>
+     -->
   </div>
-
-  <div fxFlex="20">
-    <!-- <app-timer *ngIf="displayTimer" [seconds]="myCount"
-    (change)="countChange($event)"></app-timer> -->
-  </div>
-
   
 </div>
 
-</div>

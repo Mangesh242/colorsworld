@@ -19,34 +19,34 @@ export class MainComponent {
   score:number=0;
   ngOnInit(): void {
     let tempData=[];
-    AppConstants.colorsList.forEach((item,index)=>{
-        let name=item.name.toLowerCase();
-        let options=[];
-        options.push(name);
+    // AppConstants.colorsList.forEach((item,index)=>{
+    //     let name=item.name.toLowerCase();
+    //     let options=[];
+    //     options.push(name);
 
-        for(let i=index+1;i<this.appColorsList.length;i++){
-            let colorName:string=this.appColorsList[i].name.toLowerCase(); 
-          if(colorName.includes(name) || name.includes(colorName)){
-            console.log("Found equal names");
-            debugger;
-            if(colorName!==undefined){
+    //     for(let i=index+1;i<this.appColorsList.length;i++){
+    //         let colorName:string=this.appColorsList[i].name.toLowerCase(); 
+    //       if(colorName.includes(name) || name.includes(colorName)){
+    //         console.log("Found equal names");
+    //         debugger;
+    //         if(colorName!==undefined){
               
-              options.push(colorName);
-              if(options.length=4){
-                this.appColorsList[i].option=options;
-                console.log("Colors options: "+this.appColorsList[i].option + " "+index )
+    //           options.push(colorName);
+    //           if(options.length=4){
+    //             this.appColorsList[i].option=options;
+    //             console.log("Colors options: "+this.appColorsList[i].option + " "+index )
               
-                break;
-              }
-            }
+    //             break;
+    //           }
+    //         }
               
-          }
+    //       }
           
-        }
+    //     }
         
-    })
+    // })
       this.nextColor();
-      debugger;
+      
   }
   constructor(public dialog: MatDialog){
 
@@ -81,7 +81,8 @@ export class MainComponent {
              mode: AppConstants.mode.timeup,
              res:this.result,
              name:this.correctOption
-            }
+            },
+            disableClose: true
     }).afterClosed().subscribe(
       (res)=>{
         if(res!==undefined){
@@ -102,6 +103,7 @@ export class MainComponent {
   }
 
   nextColor(){
+    this.choosedColor=undefined;
     this.counter=this.counter+1;
     if(this.counter==this.appColorsList.length){
       this.counter=0;
@@ -114,17 +116,19 @@ export class MainComponent {
   }
 
   private resultCheck() {
-    
-    if (this.choosedColor !== undefined) {
-      if (this.choosedColor === this.currentObject["name"]) {
+      if (this.choosedColor !== undefined && this.choosedColor === this.currentObject["name"]) {
         this.result="Correct";
         this.correctOption=this.choosedColor;
-      }else{
+      }
+      else{
         this.result="InCorrect";
+        if(this.myCount==0){
+          this.result=undefined;
+        }
         this.correctOption=this.currentObject["name"];
       }
 
-    }
+  
   }
 
    shuffle(array:any) {

@@ -32,9 +32,9 @@ export class AppConstants{
         },
         {
             "hex": "#8CBED6",
-            "name": "Dark Sky Blue",
+            "name": "Sky Blue",
             "option": [
-                "Dark Sky Blue",
+                "Sky Blue",
                 "Navy Blue",
                 "Charcoal",
                 "Cyan"
@@ -53,8 +53,64 @@ export class AppConstants{
             "level": "hard"
         },
 
+        {
+            
+            "hex": "#FFFDD0",
+            "name": "Cream",
+            "option": [
+                "Cream",
+                "Ivory",
+                "Lavender",
+                "Lilac"
+            ],
+            "level": "hard"
+        },
+        {
+            
+
+            "hex": "#454054",
+            "name": "Grapevine",
+            "option": [
+                "Grapevine",
+                "Dark Purple",
+                "French Wine",
+                "Lilac"
+            ],
+            "level": "hard"
+        },
+        {
+            
+
+            "hex": "#00FF00",
+            "name": "Green",
+            "option": [
+                "Green",
+                "Pear",
+                "Pine",
+                "Pickle"
+            ],
+            "level": "hard"
+        },
+
+        {
+            
+
+            "hex": "#597D35",
+            "name": "Pickle",
+            "option": [
+                "Green",
+                "Pear",
+                "Pine",
+                "Pickle"
+            ],
+            "level": "hard"
+        },
+
+
     
     ]
+
+
 
     public static colorsList2=[
         {
@@ -14380,7 +14436,4 @@ export class AppConstants{
         }
     ]
 
-    
-
-  
 }

@@ -5,21 +5,29 @@
 </div>
 
 <div style="padding:10px" fxLayout="column"> 
-    <div fxFlex="40px">
-        <div fxFlex="38">
 
+    <div *ngIf="this.score!=0 || res ==undefined" fxFlex="20px">
+        <div fxFlex="38">
         </div>
         <div fxFlex="20">
              {{msg}}
-             </div>
-</div>
+        </div>
+    </div>
 
-<div style="margin-left: 40%;font-size: 86px;" fxFlex="100px">
+    <div *ngIf="this.score==0 && res!==undefined" fxFlex="20px">
+        <div fxFlex="10">
+        </div>
+        <div fxFlex="90" style="align-items:center">
+             {{msg}}
+        </div>
+    </div>
+
+<div style="margin-left: 45%;font-size: 86px;" fxFlex="100px" [ngClass]="score==0 ? 'redScore':''">
     {{score}}
 </div>
 
-<div fxFlex="40px" fxLayout="row" *ngIf="this.score!=0">
-    <div fxFlex="40">
+<div fxFlex="50px" fxLayout="row" *ngIf="this.score!=0">
+    <div fxFlex="42">
 
     </div>
     <div fxFlex="20">
@@ -34,15 +42,18 @@
 
     </div>
     <div fxFlex="25">
+        <button (click)="onNextClick('retry')" mat-raised-button  color="secondary">Retry</button>
+    </div> 
+
+    <div fxFlex="25">
         <button (click)="onNextClick('next')" mat-raised-button  color="secondary">Next</button>
     </div>
     
-    <div fxFlex="25">
-        <button (click)="onNextClick('retry')" mat-raised-button  color="secondary">Retry</button>
-    </div>
+   
     <div fxFlex="25">
 
     </div>
+    
 </div>
  
 
