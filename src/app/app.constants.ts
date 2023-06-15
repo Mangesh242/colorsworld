@@ -6,8 +6,57 @@ export class AppConstants{
         timeup:"timeup"
     }
 
-    public static colorsList =
-    [
+
+    public static colorsList=[
+        {
+            "hex": "#FD3A4A",
+            "name": "Red Salsa",
+            "option": [
+                "Red Salsa",
+                "Brown",
+                "Blue",
+                "Orange"
+            ],
+            "level": "hard"
+        },
+        {
+            "hex": "#F4C2C2",
+            "name": "Baby Pink",
+            "option": [
+                "Baby Pink",
+                "Red",
+                "Mustard",
+                "Navy Blue"
+            ],
+            "level": "hard"
+        },
+        {
+            "hex": "#8CBED6",
+            "name": "Dark Sky Blue",
+            "option": [
+                "Dark Sky Blue",
+                "Navy Blue",
+                "Charcoal",
+                "Cyan"
+            ],
+            "level": "hard"
+        },
+        {
+            "hex": "#301934",
+            "name": "Dark Purple",
+            "option": [
+                "Dark Purple",
+                "Garnet",
+                "Grapevine",
+                "Lavender"
+            ],
+            "level": "hard"
+        },
+
+    
+    ]
+
+    public static colorsList2=[
         {
             "hex": "#0048BA",
             "name": "Absolute Zero",
@@ -16,7 +65,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B0BF1A",
@@ -26,7 +76,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#7CB9E8",
@@ -36,7 +87,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#C9FFE5",
@@ -46,7 +98,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B284BE",
@@ -56,7 +109,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#5D8AA8",
@@ -66,7 +120,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00308F",
@@ -76,7 +131,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#72A0C1",
@@ -86,7 +142,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#AF002A",
@@ -96,7 +153,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F2F0E6",
@@ -106,7 +164,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#F0F8FF",
@@ -116,7 +175,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#84DE02",
@@ -126,7 +186,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E32636",
@@ -136,7 +197,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C46210",
@@ -146,7 +208,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#EFDECD",
@@ -156,7 +219,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#E52B50",
@@ -166,7 +230,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#9F2B68",
@@ -176,7 +241,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F19CBB",
@@ -186,7 +252,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#AB274F",
@@ -196,7 +263,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D3212D",
@@ -206,7 +274,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#3B7A57",
@@ -216,7 +285,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00C4B0",
@@ -226,7 +296,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FFBF00",
@@ -236,7 +307,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FF7E00",
@@ -246,7 +318,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF033E",
@@ -256,7 +329,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9966CC",
@@ -266,7 +340,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#A4C639",
@@ -276,7 +351,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F2F3F4",
@@ -286,7 +362,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CD9575",
@@ -296,7 +373,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#665D1E",
@@ -306,7 +384,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#915C83",
@@ -316,7 +395,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#841B2D",
@@ -326,7 +406,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FAEBD7",
@@ -336,7 +417,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#008000",
@@ -346,7 +428,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#8DB600",
@@ -356,7 +439,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FBCEB1",
@@ -366,7 +450,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#00FFFF",
@@ -376,7 +461,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#7FFFD4",
@@ -386,7 +472,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#D0FF14",
@@ -396,7 +483,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#4B5320",
@@ -406,7 +494,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#3B444B",
@@ -416,7 +505,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#8F9779",
@@ -426,7 +516,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#E9D66B",
@@ -436,7 +527,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B2BEB5",
@@ -446,7 +538,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#87A96B",
@@ -456,7 +549,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FF9966",
@@ -466,7 +560,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A52A2A",
@@ -476,7 +571,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FDEE00",
@@ -486,7 +582,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#6E7F80",
@@ -496,7 +593,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#568203",
@@ -506,7 +604,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FF2052",
@@ -516,7 +615,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#C39953",
@@ -526,7 +626,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#007FFF",
@@ -536,7 +637,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#F0FFFF",
@@ -546,7 +648,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F0FFFF",
@@ -556,7 +659,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#DBE9F4",
@@ -566,7 +670,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#89CFF0",
@@ -576,7 +681,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A1CAF1",
@@ -586,7 +692,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F4C2C2",
@@ -596,7 +703,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FEFEFA",
@@ -606,7 +714,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF91AF",
@@ -616,7 +725,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#21ABCD",
@@ -626,7 +736,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FAE7B5",
@@ -636,7 +747,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFE135",
@@ -646,7 +758,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#006A4E",
@@ -656,7 +769,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E0218A",
@@ -666,7 +780,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#7C0A02",
@@ -676,7 +791,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#1DACD6",
@@ -686,7 +802,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#848482",
@@ -696,7 +813,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#98777B",
@@ -706,7 +824,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#BCD4E6",
@@ -716,7 +835,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9F8170",
@@ -726,7 +846,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FA6E79",
@@ -736,7 +857,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#F5F5DC",
@@ -746,7 +868,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#2E5894",
@@ -756,7 +879,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9C2542",
@@ -766,7 +890,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E88E5A",
@@ -776,7 +901,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFE4C4",
@@ -786,7 +912,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#3D2B1F",
@@ -796,7 +923,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#967117",
@@ -806,7 +934,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CAE00D",
@@ -816,7 +945,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#BFFF00",
@@ -826,7 +956,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FE6F5E",
@@ -836,7 +967,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#BF4F51",
@@ -846,7 +978,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#000000",
@@ -856,7 +989,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#3D0C02",
@@ -866,7 +1000,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#54626F",
@@ -876,7 +1011,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#253529",
@@ -886,7 +1022,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#3B3C36",
@@ -896,7 +1033,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#BFAFB2",
@@ -906,7 +1044,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFEBCD",
@@ -916,7 +1055,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A57164",
@@ -926,7 +1066,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#318CE7",
@@ -936,7 +1077,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#ACE5EE",
@@ -946,7 +1088,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FAF0BE",
@@ -956,7 +1099,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#0000FF",
@@ -966,7 +1110,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#1F75FE",
@@ -976,7 +1121,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#0093AF",
@@ -986,7 +1132,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#0087BD",
@@ -996,7 +1143,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#0018A8",
@@ -1006,7 +1154,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#333399",
@@ -1016,7 +1165,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#0247FE",
@@ -1026,7 +1176,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A2A2D0",
@@ -1036,7 +1187,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00B9FB",
@@ -1046,7 +1198,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#6699CC",
@@ -1056,7 +1209,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#0D98BA",
@@ -1066,7 +1220,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#5DADEC",
@@ -1076,7 +1231,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#ACE5EE",
@@ -1086,7 +1242,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#553592",
@@ -1096,7 +1253,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#126180",
@@ -1106,7 +1264,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#8A2BE2",
@@ -1116,7 +1275,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#5072A7",
@@ -1126,7 +1286,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#4F86F7",
@@ -1136,7 +1297,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#1C1CF0",
@@ -1146,7 +1308,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#DE5D83",
@@ -1156,7 +1319,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#79443B",
@@ -1166,7 +1330,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#0095B6",
@@ -1176,7 +1341,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E3DAC9",
@@ -1186,7 +1352,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#DDE26A",
@@ -1196,7 +1363,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CC0000",
@@ -1206,7 +1374,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#006A4E",
@@ -1216,7 +1385,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#873260",
@@ -1226,7 +1396,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#0070FF",
@@ -1236,7 +1407,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B5A642",
@@ -1246,7 +1418,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#CB4154",
@@ -1256,7 +1429,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#1DACD6",
@@ -1266,7 +1440,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#66FF00",
@@ -1276,7 +1451,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#BF94E4",
@@ -1286,7 +1462,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D891EF",
@@ -1296,7 +1473,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C32148",
@@ -1306,7 +1484,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#1974D2",
@@ -1316,7 +1495,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF007F",
@@ -1326,7 +1506,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#08E8DE",
@@ -1336,7 +1517,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D19FE8",
@@ -1346,7 +1528,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFAA1D",
@@ -1356,7 +1539,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#3399FF",
@@ -1366,7 +1550,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F4BBFF",
@@ -1376,7 +1561,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF55A3",
@@ -1386,7 +1572,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FB607F",
@@ -1396,7 +1583,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#004225",
@@ -1406,7 +1594,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CD7F32",
@@ -1416,7 +1605,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#737000",
@@ -1426,7 +1616,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#964B00",
@@ -1436,7 +1627,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A52A2A",
@@ -1446,7 +1638,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#6B4423",
@@ -1456,7 +1649,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#AF6E4D",
@@ -1466,7 +1660,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#cc9966",
@@ -1476,7 +1671,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#1B4D3E",
@@ -1486,7 +1682,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFC1CC",
@@ -1496,7 +1693,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E7FEFF",
@@ -1506,7 +1704,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#7BB661",
@@ -1516,7 +1715,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F0DC82",
@@ -1526,7 +1726,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#480607",
@@ -1536,7 +1737,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#800020",
@@ -1546,7 +1748,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#DEB887",
@@ -1556,7 +1759,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#A17A74",
@@ -1566,7 +1770,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CC5500",
@@ -1576,7 +1781,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E97451",
@@ -1586,7 +1792,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#8A3324",
@@ -1596,7 +1803,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#24A0ED",
@@ -1606,7 +1814,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#BD33A4",
@@ -1616,7 +1825,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#702963",
@@ -1626,7 +1836,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#536872",
@@ -1636,7 +1847,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#5F9EA0",
@@ -1646,7 +1858,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#91A3B0",
@@ -1656,7 +1869,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#006B3C",
@@ -1666,7 +1880,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#ED872D",
@@ -1676,7 +1891,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E30022",
@@ -1686,7 +1902,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFF600",
@@ -1696,7 +1913,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A67B5B",
@@ -1706,7 +1924,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#4B3621",
@@ -1716,7 +1935,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#1E4D2B",
@@ -1726,7 +1946,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A3C1AD",
@@ -1736,7 +1957,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C19A6B",
@@ -1746,7 +1968,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#EFBBCC",
@@ -1756,7 +1979,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#78866B",
@@ -1766,7 +1990,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFFF99",
@@ -1776,7 +2001,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FFEF00",
@@ -1786,7 +2012,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF0800",
@@ -1796,7 +2023,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E4717A",
@@ -1806,7 +2034,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00BFFF",
@@ -1816,7 +2045,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#592720",
@@ -1826,7 +2056,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C41E3A",
@@ -1836,7 +2067,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#00CC99",
@@ -1846,7 +2078,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#960018",
@@ -1856,7 +2089,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#D70040",
@@ -1866,7 +2100,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#EB4C42",
@@ -1876,7 +2111,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF0038",
@@ -1886,7 +2122,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFA6C9",
@@ -1896,7 +2133,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B31B1B",
@@ -1906,7 +2144,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#56A0D3",
@@ -1916,7 +2155,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#ED9121",
@@ -1926,7 +2166,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00563F",
@@ -1936,7 +2177,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#062A78",
@@ -1946,7 +2188,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#703642",
@@ -1956,7 +2199,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#C95A49",
@@ -1966,7 +2210,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#92A1CF",
@@ -1976,7 +2221,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#ACE1AF",
@@ -1986,7 +2232,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#007BA7",
@@ -1996,7 +2243,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#2F847C",
@@ -2006,7 +2254,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B2FFFF",
@@ -2016,7 +2265,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#4997D0",
@@ -2026,7 +2276,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#DE3163",
@@ -2036,7 +2287,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#EC3B83",
@@ -2046,7 +2298,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#007BA7",
@@ -2056,7 +2309,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#2A52BE",
@@ -2066,7 +2320,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#6D9BC3",
@@ -2076,7 +2331,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#007AA5",
@@ -2086,7 +2342,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E03C31",
@@ -2096,7 +2353,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A0785A",
@@ -2106,7 +2364,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#F7E7CE",
@@ -2116,7 +2375,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#F1DDCF",
@@ -2126,7 +2386,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#36454F",
@@ -2136,7 +2397,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#232B2B",
@@ -2146,7 +2408,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E68FAC",
@@ -2156,7 +2419,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#DFFF00",
@@ -2166,7 +2430,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#7FFF00",
@@ -2176,7 +2441,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#DE3163",
@@ -2186,7 +2452,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FFB7C5",
@@ -2196,7 +2463,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#954535",
@@ -2206,7 +2474,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#DE6FA1",
@@ -2216,7 +2485,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A8516E",
@@ -2226,7 +2496,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#AA381E",
@@ -2236,7 +2507,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#856088",
@@ -2246,7 +2518,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#4AFF00",
@@ -2256,7 +2529,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#7B3F00",
@@ -2266,7 +2540,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D2691E",
@@ -2276,7 +2551,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFA700",
@@ -2286,7 +2562,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#98817B",
@@ -2296,7 +2573,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#E34234",
@@ -2306,7 +2584,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#D2691E",
@@ -2316,7 +2595,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#CD607E",
@@ -2326,7 +2606,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E4D00A",
@@ -2336,7 +2617,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#9FA91F",
@@ -2346,7 +2628,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#7F1734",
@@ -2356,7 +2639,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FBCCE7",
@@ -2366,7 +2650,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#0047AB",
@@ -2376,7 +2661,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D2691E",
@@ -2386,7 +2672,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#965A3E",
@@ -2396,7 +2683,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#6F4E37",
@@ -2406,7 +2694,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#C4D8E2",
@@ -2416,7 +2705,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F88379",
@@ -2426,7 +2716,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#002E63",
@@ -2436,7 +2727,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#8C92AC",
@@ -2446,7 +2738,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B87333",
@@ -2456,7 +2749,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#DA8A67",
@@ -2466,7 +2760,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#AD6F69",
@@ -2476,7 +2771,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CB6D51",
@@ -2486,7 +2782,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#996666",
@@ -2496,7 +2793,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF3800",
@@ -2506,7 +2804,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FF7F50",
@@ -2516,7 +2815,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#F88379",
@@ -2526,7 +2826,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF4040",
@@ -2536,7 +2837,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FD7C6E",
@@ -2546,7 +2848,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#893F45",
@@ -2556,7 +2859,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FBEC5D",
@@ -2566,7 +2870,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#B31B1B",
@@ -2576,7 +2881,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#6495ED",
@@ -2586,7 +2892,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFF8DC",
@@ -2596,7 +2903,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#2E2D88",
@@ -2606,7 +2914,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFF8E7",
@@ -2616,7 +2925,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#81613C",
@@ -2626,7 +2936,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFBCD9",
@@ -2636,7 +2947,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFFDD0",
@@ -2646,7 +2958,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#DC143C",
@@ -2656,7 +2969,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#BE0032",
@@ -2666,7 +2980,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#990000",
@@ -2676,7 +2991,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F5F5F5",
@@ -2686,7 +3002,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#00FFFF",
@@ -2696,7 +3013,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#4E82B4",
@@ -2706,7 +3024,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#4682BF",
@@ -2716,7 +3035,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#28589C",
@@ -2726,7 +3046,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#188BC2",
@@ -2736,7 +3057,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00B7EB",
@@ -2746,7 +3068,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#58427C",
@@ -2756,7 +3079,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFD300",
@@ -2766,7 +3090,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F56FA1",
@@ -2776,7 +3101,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FFFF31",
@@ -2786,7 +3112,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#F0E130",
@@ -2796,7 +3123,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#00008B",
@@ -2806,7 +3134,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#666699",
@@ -2816,7 +3145,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#654321",
@@ -2826,7 +3156,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#88654E",
@@ -2836,7 +3167,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#5D3954",
@@ -2846,7 +3178,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A40000",
@@ -2856,7 +3189,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#08457E",
@@ -2866,7 +3200,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#986960",
@@ -2876,7 +3211,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CD5B45",
@@ -2886,7 +3222,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#008B8B",
@@ -2896,7 +3233,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#536878",
@@ -2906,7 +3244,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B8860B",
@@ -2916,7 +3255,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A9A9A9",
@@ -2926,7 +3266,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#013220",
@@ -2936,7 +3277,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#006400",
@@ -2946,7 +3288,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#1F262A",
@@ -2956,7 +3299,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00416A",
@@ -2966,7 +3310,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00147E",
@@ -2976,7 +3321,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#1A2421",
@@ -2986,7 +3332,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#BDB76B",
@@ -2996,7 +3343,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#483C32",
@@ -3006,7 +3354,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#734F96",
@@ -3016,7 +3365,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#534B4F",
@@ -3026,7 +3376,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#543D37",
@@ -3036,7 +3387,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#8B008B",
@@ -3046,7 +3398,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A9A9A9",
@@ -3056,7 +3409,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#003366",
@@ -3066,7 +3420,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#4A5D23",
@@ -3076,7 +3431,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#556B2F",
@@ -3086,7 +3442,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF8C00",
@@ -3096,7 +3453,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9932CC",
@@ -3106,7 +3464,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#779ECB",
@@ -3116,7 +3475,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#03C03C",
@@ -3126,7 +3486,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#966FD6",
@@ -3136,7 +3497,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C23B22",
@@ -3146,7 +3508,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E75480",
@@ -3156,7 +3519,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#003399",
@@ -3166,7 +3530,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#4F3A3C",
@@ -3176,7 +3541,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#301934",
@@ -3186,7 +3552,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#872657",
@@ -3196,7 +3563,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#8B0000",
@@ -3206,7 +3574,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E9967A",
@@ -3216,7 +3585,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#560319",
@@ -3226,7 +3596,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#8FBC8F",
@@ -3236,7 +3607,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#3C1414",
@@ -3246,7 +3618,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#8CBED6",
@@ -3256,7 +3629,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#483D8B",
@@ -3266,7 +3640,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#2F4F4F",
@@ -3276,7 +3651,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#177245",
@@ -3286,7 +3662,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#918151",
@@ -3296,7 +3673,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFA812",
@@ -3306,7 +3684,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#483C32",
@@ -3316,7 +3695,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CC4E5C",
@@ -3326,7 +3706,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00CED1",
@@ -3336,7 +3717,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D1BEA8",
@@ -3346,7 +3728,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9400D3",
@@ -3356,7 +3739,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9B870C",
@@ -3366,7 +3750,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00703C",
@@ -3376,7 +3761,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#555555",
@@ -3386,7 +3772,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D70A53",
@@ -3396,7 +3783,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#40826D",
@@ -3406,7 +3794,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A9203E",
@@ -3416,7 +3805,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#EF3038",
@@ -3426,7 +3816,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E9692C",
@@ -3436,7 +3827,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#DA3287",
@@ -3446,7 +3838,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FAD6A5",
@@ -3456,7 +3849,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B94E48",
@@ -3466,7 +3860,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#704241",
@@ -3476,7 +3871,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C154C1",
@@ -3486,7 +3882,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#056608",
@@ -3496,7 +3893,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#0E7C61",
@@ -3506,7 +3904,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#004B49",
@@ -3516,7 +3915,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#333366",
@@ -3526,7 +3926,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F5C71A",
@@ -3536,7 +3937,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9955BB",
@@ -3546,7 +3948,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CC00CC",
@@ -3556,7 +3959,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#820000",
@@ -3566,7 +3970,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D473D4",
@@ -3576,7 +3981,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#355E3B",
@@ -3586,7 +3992,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFCBA4",
@@ -3596,7 +4003,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF1493",
@@ -3606,7 +4014,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A95C68",
@@ -3616,7 +4025,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#850101",
@@ -3626,7 +4036,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#843F5B",
@@ -3636,7 +4047,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF9933",
@@ -3646,7 +4058,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00BFFF",
@@ -3656,7 +4069,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#4A646C",
@@ -3666,7 +4080,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#556B2F",
@@ -3676,7 +4091,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#7E5E60",
@@ -3686,7 +4102,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#66424D",
@@ -3696,7 +4113,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#330066",
@@ -3706,7 +4124,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#BA8759",
@@ -3716,7 +4135,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#1560BD",
@@ -3726,7 +4146,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#2243B6",
@@ -3736,7 +4157,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#669999",
@@ -3746,7 +4168,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C19A6B",
@@ -3756,7 +4179,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#EDC9AF",
@@ -3766,7 +4190,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#EA3C53",
@@ -3776,7 +4201,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#B9F2FF",
@@ -3786,7 +4212,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#696969",
@@ -3796,7 +4223,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C53151",
@@ -3806,7 +4234,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9B7653",
@@ -3816,7 +4245,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#1E90FF",
@@ -3826,7 +4256,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FEF65B",
@@ -3836,7 +4267,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D71868",
@@ -3846,7 +4278,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#85BB65",
@@ -3856,7 +4289,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#828E84",
@@ -3866,7 +4300,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#664C28",
@@ -3876,7 +4311,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#967117",
@@ -3886,7 +4322,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#00009C",
@@ -3896,7 +4333,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E5CCC9",
@@ -3906,7 +4344,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#EFDFBB",
@@ -3916,7 +4355,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E1A95F",
@@ -3926,7 +4366,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#555D50",
@@ -3936,7 +4377,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#C2B280",
@@ -3946,7 +4388,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#1B1B1B",
@@ -3956,7 +4399,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#614051",
@@ -3966,7 +4410,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#F0EAD6",
@@ -3976,7 +4421,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#1034A6",
@@ -3986,7 +4432,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#7DF9FF",
@@ -3996,7 +4443,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF003F",
@@ -4006,7 +4454,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00FFFF",
@@ -4016,7 +4465,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00FF00",
@@ -4026,7 +4476,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#6F00FF",
@@ -4036,7 +4487,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F4BBFF",
@@ -4046,7 +4498,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CCFF00",
@@ -4056,7 +4509,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#BF00FF",
@@ -4066,7 +4520,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#3F00FF",
@@ -4076,7 +4531,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#8F00FF",
@@ -4086,7 +4542,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFFF33",
@@ -4096,7 +4553,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#50C878",
@@ -4106,7 +4564,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#6C3082",
@@ -4116,7 +4575,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#1B4D3E",
@@ -4126,7 +4586,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B48395",
@@ -4136,7 +4597,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#AB4B52",
@@ -4146,7 +4608,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CC474B",
@@ -4156,7 +4619,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#563C5C",
@@ -4166,7 +4630,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#96C8A2",
@@ -4176,7 +4641,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#44D7A8",
@@ -4186,7 +4652,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#C19A6B",
@@ -4196,7 +4663,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#801818",
@@ -4206,7 +4674,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B53389",
@@ -4216,7 +4685,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#DE5285",
@@ -4226,7 +4696,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F400A1",
@@ -4236,7 +4707,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E5AA70",
@@ -4246,7 +4718,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#4D5D53",
@@ -4256,7 +4729,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FDD5B1",
@@ -4266,7 +4740,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#4F7942",
@@ -4276,7 +4751,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF2800",
@@ -4286,7 +4762,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#6C541E",
@@ -4296,7 +4773,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF5470",
@@ -4306,7 +4784,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B22222",
@@ -4316,7 +4795,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#CE2029",
@@ -4326,7 +4806,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E25822",
@@ -4336,7 +4817,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FC8EAC",
@@ -4346,7 +4828,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#6B4423",
@@ -4356,7 +4839,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#F7E98E",
@@ -4366,7 +4850,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#EEDC82",
@@ -4376,7 +4861,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#A2006D",
@@ -4386,7 +4872,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FFFAF0",
@@ -4396,7 +4883,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFBF00",
@@ -4406,7 +4894,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF1493",
@@ -4416,7 +4905,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CCFF00",
@@ -4426,7 +4916,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF004F",
@@ -4436,7 +4927,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#014421",
@@ -4446,7 +4938,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#228B22",
@@ -4456,7 +4949,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A67B5B",
@@ -4466,7 +4960,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#856D4D",
@@ -4476,7 +4971,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#0072BB",
@@ -4486,7 +4982,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FD3F92",
@@ -4496,7 +4993,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#86608E",
@@ -4506,7 +5004,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9EFD38",
@@ -4516,7 +5015,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D473D4",
@@ -4526,7 +5026,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FD6C9E",
@@ -4536,7 +5037,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#811453",
@@ -4546,7 +5048,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#4E1609",
@@ -4556,7 +5059,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C72C48",
@@ -4566,7 +5070,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F64A8A",
@@ -4576,7 +5081,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#77B5FE",
@@ -4586,7 +5092,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#8806CE",
@@ -4596,7 +5103,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#AC1E44",
@@ -4606,7 +5114,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A6E7FF",
@@ -4616,7 +5125,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E936A7",
@@ -4626,7 +5136,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FF00FF",
@@ -4636,7 +5147,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#C154C1",
@@ -4646,7 +5158,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF77FF",
@@ -4656,7 +5169,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CC397B",
@@ -4666,7 +5180,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C74375",
@@ -4676,7 +5191,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E48400",
@@ -4686,7 +5202,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#CC6666",
@@ -4696,7 +5213,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#DCDCDC",
@@ -4706,7 +5224,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#E49B0F",
@@ -4716,7 +5235,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#996600",
@@ -4726,7 +5246,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFDF46",
@@ -4736,7 +5257,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#007F66",
@@ -4746,7 +5268,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F8F8FF",
@@ -4756,7 +5279,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B05C52",
@@ -4766,7 +5290,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FE5A1D",
@@ -4776,7 +5301,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B06500",
@@ -4786,7 +5312,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#6082B6",
@@ -4796,7 +5323,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#E6E8FA",
@@ -4806,7 +5334,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#AB92B3",
@@ -4816,7 +5345,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00AB66",
@@ -4826,7 +5356,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D4AF37",
@@ -4836,7 +5367,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFD700",
@@ -4846,7 +5378,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#85754E",
@@ -4856,7 +5389,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#996515",
@@ -4866,7 +5400,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FCC200",
@@ -4876,7 +5411,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFDF00",
@@ -4886,7 +5422,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#DAA520",
@@ -4896,7 +5433,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#676767",
@@ -4906,7 +5444,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A8E4A0",
@@ -4916,7 +5455,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#6F2DA8",
@@ -4926,7 +5466,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#808080",
@@ -4936,7 +5477,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#808080",
@@ -4946,7 +5488,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#BEBEBE",
@@ -4956,7 +5499,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#465945",
@@ -4966,7 +5510,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#8C92AC",
@@ -4976,7 +5521,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#00FF00",
@@ -4986,7 +5532,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#1CAC78",
@@ -4996,7 +5543,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#008000",
@@ -5006,7 +5554,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00A877",
@@ -5016,7 +5565,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#009F6B",
@@ -5026,7 +5576,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00AD43",
@@ -5036,7 +5587,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00A550",
@@ -5046,7 +5598,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#66B032",
@@ -5056,7 +5609,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#1164B4",
@@ -5066,7 +5620,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#009966",
@@ -5076,7 +5631,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#A7F432",
@@ -5086,7 +5642,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#6EAEA1",
@@ -5096,7 +5653,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#ADFF2F",
@@ -5106,7 +5664,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#885818",
@@ -5116,7 +5675,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#A99A86",
@@ -5126,7 +5686,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#00FF7F",
@@ -5136,7 +5697,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#2a3439",
@@ -5146,7 +5708,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#663854",
@@ -5156,7 +5719,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#446CCF",
@@ -5166,7 +5730,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#5218FA",
@@ -5176,7 +5741,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E9D66B",
@@ -5186,7 +5752,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#3FFF00",
@@ -5196,7 +5763,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#46CB18",
@@ -5206,7 +5774,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C90016",
@@ -5216,7 +5785,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#DA9100",
@@ -5226,7 +5796,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#808000",
@@ -5236,7 +5807,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF7A00",
@@ -5246,7 +5818,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#960018",
@@ -5256,7 +5829,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#DF73FF",
@@ -5266,7 +5840,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#AA98A9",
@@ -5276,7 +5851,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#AA00BB",
@@ -5286,7 +5862,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F400A1",
@@ -5296,7 +5873,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F0FFF0",
@@ -5306,7 +5884,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#006DB0",
@@ -5316,7 +5895,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#49796B",
@@ -5326,7 +5906,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF1DCE",
@@ -5336,7 +5917,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF69B4",
@@ -5346,7 +5928,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#355E3B",
@@ -5356,7 +5939,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#71A6D2",
@@ -5366,7 +5950,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FCF75E",
@@ -5376,7 +5961,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#71BC78",
@@ -5386,7 +5972,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#319177",
@@ -5396,7 +5983,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#602F6B",
@@ -5406,7 +5994,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#002395",
@@ -5416,7 +6005,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#66023C",
@@ -5426,7 +6016,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#ED2939",
@@ -5436,7 +6027,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B2EC5D",
@@ -5446,7 +6038,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#4C516D",
@@ -5456,7 +6049,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#138808",
@@ -5466,7 +6060,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CD5C5C",
@@ -5476,7 +6071,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E3A857",
@@ -5486,7 +6082,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#4B0082",
@@ -5496,7 +6093,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#091F92",
@@ -5506,7 +6104,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#4B0082",
@@ -5516,7 +6115,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF496C",
@@ -5526,7 +6126,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#360CCC",
@@ -5536,7 +6137,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#002FA7",
@@ -5546,7 +6148,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF4F00",
@@ -5556,7 +6159,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#BA160C",
@@ -5566,7 +6170,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C0362C",
@@ -5576,7 +6181,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#5A4FCF",
@@ -5586,7 +6192,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#B3446C",
@@ -5596,7 +6203,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#F4F0EC",
@@ -5606,7 +6214,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#009000",
@@ -5616,7 +6225,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B2FFFF",
@@ -5626,7 +6236,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFFFF0",
@@ -5636,7 +6247,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#00A86B",
@@ -5646,7 +6258,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#9D2933",
@@ -5656,7 +6269,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#264348",
@@ -5666,7 +6280,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#5B3256",
@@ -5676,7 +6291,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F8DE7E",
@@ -5686,7 +6302,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#D73B3E",
@@ -5696,7 +6313,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#A50B5E",
@@ -5706,7 +6324,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#DA614E",
@@ -5716,7 +6335,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#343434",
@@ -5726,7 +6346,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#F4CA16",
@@ -5736,7 +6357,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#8AB9F1",
@@ -5746,7 +6368,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#BDDA57",
@@ -5756,7 +6379,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#29AB87",
@@ -5766,7 +6390,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#4CBB17",
@@ -5776,7 +6401,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#7C1C05",
@@ -5786,7 +6412,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#3AB09E",
@@ -5796,7 +6423,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#E8F48C",
@@ -5806,7 +6434,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C3B091",
@@ -5816,7 +6445,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F0E68C",
@@ -5826,7 +6456,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#8EE53F",
@@ -5836,7 +6467,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#882D17",
@@ -5846,7 +6478,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#E79FC4",
@@ -5856,7 +6489,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#6B4423",
@@ -5866,7 +6500,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#354230",
@@ -5876,7 +6511,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#512888",
@@ -5886,7 +6522,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E8000D",
@@ -5896,7 +6533,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#087830",
@@ -5906,7 +6544,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D6CADD",
@@ -5916,7 +6555,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#26619C",
@@ -5926,7 +6566,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFFF66",
@@ -5936,7 +6577,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A9BA9D",
@@ -5946,7 +6588,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CF1020",
@@ -5956,7 +6599,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#B57EDC",
@@ -5966,7 +6610,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E6E6FA",
@@ -5976,7 +6621,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CCCCFF",
@@ -5986,7 +6632,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFF0F5",
@@ -5996,7 +6643,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C4C3D0",
@@ -6006,7 +6654,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9457EB",
@@ -6016,7 +6665,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#EE82EE",
@@ -6026,7 +6676,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E6E6FA",
@@ -6036,7 +6687,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FBAED2",
@@ -6046,7 +6698,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#967BB6",
@@ -6056,7 +6709,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FBA0E3",
@@ -6066,7 +6720,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#7CFC00",
@@ -6076,7 +6731,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFF700",
@@ -6086,7 +6742,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FFFACD",
@@ -6096,7 +6753,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CCA01D",
@@ -6106,7 +6764,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FDFF00",
@@ -6116,7 +6775,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E3FF00",
@@ -6126,7 +6786,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F6EABE",
@@ -6136,7 +6797,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFF44F",
@@ -6146,7 +6808,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#1A1110",
@@ -6156,7 +6819,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#545AA7",
@@ -6166,7 +6830,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FDD5B1",
@@ -6176,7 +6841,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#ADD8E6",
@@ -6186,7 +6852,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B5651D",
@@ -6196,7 +6863,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E66771",
@@ -6206,7 +6874,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#88ACE0",
@@ -6216,7 +6885,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F08080",
@@ -6226,7 +6896,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#93CCEA",
@@ -6236,7 +6907,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F56991",
@@ -6246,7 +6918,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E0FFFF",
@@ -6256,7 +6929,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF5CCD",
@@ -6266,7 +6940,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C8AD7F",
@@ -6276,7 +6951,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F984EF",
@@ -6286,7 +6962,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FAFAD2",
@@ -6296,7 +6973,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D3D3D3",
@@ -6306,7 +6984,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CC99CC",
@@ -6316,7 +6995,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#90EE90",
@@ -6326,7 +7006,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFB3DE",
@@ -6336,7 +7017,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F0E68C",
@@ -6346,7 +7028,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D39BCB",
@@ -6356,7 +7039,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#ADDFAD",
@@ -6366,7 +7050,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FED8B1",
@@ -6376,7 +7061,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E6A8D7",
@@ -6386,7 +7072,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B19CD9",
@@ -6396,7 +7083,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFB6C1",
@@ -6406,7 +7094,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E97451",
@@ -6416,7 +7105,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFA07A",
@@ -6426,7 +7116,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF9999",
@@ -6436,7 +7127,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#20B2AA",
@@ -6446,7 +7138,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#87CEFA",
@@ -6456,7 +7149,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#778899",
@@ -6466,7 +7160,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B0C4DE",
@@ -6476,7 +7171,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B38B6D",
@@ -6486,7 +7182,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E68FAC",
@@ -6496,7 +7193,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFFFE0",
@@ -6506,7 +7204,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C8A2C8",
@@ -6516,7 +7215,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#AE98AA",
@@ -6526,7 +7226,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#BFFF00",
@@ -6536,7 +7237,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00FF00",
@@ -6546,7 +7248,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#32CD32",
@@ -6556,7 +7259,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9DC209",
@@ -6566,7 +7270,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#195905",
@@ -6576,7 +7281,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FAF0E6",
@@ -6586,7 +7292,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#15F2FD",
@@ -6596,7 +7303,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#DE6FA1",
@@ -6606,7 +7314,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#6CA0DC",
@@ -6616,7 +7325,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#674C47",
@@ -6626,7 +7336,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#B86D29",
@@ -6636,7 +7347,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#6C2E1F",
@@ -6646,7 +7358,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#987456",
@@ -6656,7 +7369,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#6699CC",
@@ -6666,7 +7380,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FFE4CD",
@@ -6676,7 +7391,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#E62020",
@@ -6686,7 +7402,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#001C3D",
@@ -6696,7 +7413,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFBD88",
@@ -6706,7 +7424,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CC3336",
@@ -6716,7 +7435,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF00FF",
@@ -6726,7 +7446,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FF55A3",
@@ -6736,7 +7457,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CA1F7B",
@@ -6746,7 +7468,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D0417E",
@@ -6756,7 +7479,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF0090",
@@ -6766,7 +7490,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9F4576",
@@ -6776,7 +7501,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CC338B",
@@ -6786,7 +7512,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#AAF0D1",
@@ -6796,7 +7523,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF4466",
@@ -6806,7 +7534,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F8F4FF",
@@ -6816,7 +7545,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#C04000",
@@ -6826,7 +7556,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FBEC5D",
@@ -6836,7 +7567,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#6050DC",
@@ -6846,7 +7578,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#0BDA51",
@@ -6856,7 +7589,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#979AAA",
@@ -6866,7 +7600,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#F37A48",
@@ -6876,7 +7611,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FF8243",
@@ -6886,7 +7622,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#74C365",
@@ -6896,7 +7633,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#880085",
@@ -6906,7 +7644,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#EAA221",
@@ -6916,7 +7655,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#C32148",
@@ -6926,7 +7666,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#800000",
@@ -6936,7 +7677,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B03060",
@@ -6946,7 +7688,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E0B0FF",
@@ -6956,7 +7699,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#915F6D",
@@ -6966,7 +7710,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#EF98AA",
@@ -6976,7 +7721,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#47ABCC",
@@ -6986,7 +7732,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#30BFBF",
@@ -6996,7 +7743,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#ACACE6",
@@ -7006,7 +7754,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#5E8C31",
@@ -7016,7 +7765,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D9E650",
@@ -7026,7 +7776,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#733380",
@@ -7036,7 +7787,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D92121",
@@ -7046,7 +7798,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A63A79",
@@ -7056,7 +7809,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FAFA37",
@@ -7066,7 +7820,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F2BA49",
@@ -7076,7 +7831,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#4C9141",
@@ -7086,7 +7842,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#73C2FB",
@@ -7096,7 +7853,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E5B73B",
@@ -7106,7 +7864,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#66DDAA",
@@ -7116,7 +7875,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#0000CD",
@@ -7126,7 +7886,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E2062C",
@@ -7136,7 +7897,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#AF4035",
@@ -7146,7 +7908,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F3E5AB",
@@ -7156,7 +7919,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#035096",
@@ -7166,7 +7930,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#1C352D",
@@ -7176,7 +7941,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#DDA0DD",
@@ -7186,7 +7952,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#BA55D3",
@@ -7196,7 +7963,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#0067A5",
@@ -7206,7 +7974,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9370DB",
@@ -7216,7 +7985,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#BB3385",
@@ -7226,7 +7996,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#AA4069",
@@ -7236,7 +8007,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#3CB371",
@@ -7246,7 +8018,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#80DAEB",
@@ -7256,7 +8029,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#7B68EE",
@@ -7266,7 +8040,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C9DC87",
@@ -7276,7 +8051,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00FA9A",
@@ -7286,7 +8062,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#674C47",
@@ -7296,7 +8073,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#48D1CC",
@@ -7306,7 +8084,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#79443B",
@@ -7316,7 +8095,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D9603B",
@@ -7326,7 +8106,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C71585",
@@ -7336,7 +8117,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F8B878",
@@ -7346,7 +8128,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F8DE7E",
@@ -7356,7 +8139,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FDBCB4",
@@ -7366,7 +8150,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#0A7E8C",
@@ -7376,7 +8161,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9C7C38",
@@ -7386,7 +8172,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E4007C",
@@ -7396,7 +8183,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#7ED4E6",
@@ -7406,7 +8194,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#8DD9CC",
@@ -7416,7 +8205,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#8B72BE",
@@ -7426,7 +8216,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#210837",
@@ -7436,7 +8227,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#4D8C57",
@@ -7446,7 +8238,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#ACBF60",
@@ -7456,7 +8249,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D982B5",
@@ -7466,7 +8260,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E58E73",
@@ -7476,7 +8271,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A55353",
@@ -7486,7 +8282,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFEB00",
@@ -7496,7 +8293,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#ECB176",
@@ -7506,7 +8304,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#702670",
@@ -7516,7 +8315,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#191970",
@@ -7526,7 +8326,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#004953",
@@ -7536,7 +8337,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFC40C",
@@ -7546,7 +8348,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FDFFF5",
@@ -7556,7 +8359,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FFDAE9",
@@ -7566,7 +8370,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E3F988",
@@ -7576,7 +8381,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#36747D",
@@ -7586,7 +8392,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#F5E050",
@@ -7596,7 +8403,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#3EB489",
@@ -7606,7 +8414,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#F5FFFA",
@@ -7616,7 +8425,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#98FF98",
@@ -7626,7 +8436,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#BBB477",
@@ -7636,7 +8447,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFE4E1",
@@ -7646,7 +8458,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FAEBD7",
@@ -7656,7 +8469,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#967117",
@@ -7666,7 +8480,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#73A9C2",
@@ -7676,7 +8491,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#AE0C00",
@@ -7686,7 +8502,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#8DA399",
@@ -7696,7 +8513,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#8A9A5B",
@@ -7706,7 +8524,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#30BA8F",
@@ -7716,7 +8535,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#997A8D",
@@ -7726,7 +8546,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#18453B",
@@ -7736,7 +8557,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#306030",
@@ -7746,7 +8568,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C54B8C",
@@ -7756,7 +8579,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#828E84",
@@ -7766,7 +8590,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFDB58",
@@ -7776,7 +8601,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#317873",
@@ -7786,7 +8612,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D65282",
@@ -7796,7 +8623,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#AD4379",
@@ -7806,7 +8634,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F6ADC6",
@@ -7816,7 +8645,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#2A8000",
@@ -7826,7 +8656,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FADA5E",
@@ -7836,7 +8667,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFDEAD",
@@ -7846,7 +8678,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#000080",
@@ -7856,7 +8689,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#9457EB",
@@ -7866,7 +8700,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFA343",
@@ -7876,7 +8711,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FE4164",
@@ -7886,7 +8722,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#39FF14",
@@ -7896,7 +8733,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#214FC6",
@@ -7906,7 +8744,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D7837F",
@@ -7916,7 +8755,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#727472",
@@ -7926,7 +8766,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#A4DDED",
@@ -7936,7 +8777,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#059033",
@@ -7946,7 +8788,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E9FFDB",
@@ -7956,7 +8799,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#4F42B5",
@@ -7966,7 +8810,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#0077BE",
@@ -7976,7 +8821,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#48BF91",
@@ -7986,7 +8832,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CC7722",
@@ -7996,7 +8843,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#008000",
@@ -8006,7 +8854,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FD5240",
@@ -8016,7 +8865,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#43302E",
@@ -8026,7 +8876,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CFB53B",
@@ -8036,7 +8887,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#563C5C",
@@ -8046,7 +8898,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FDF5E6",
@@ -8056,7 +8909,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#796878",
@@ -8066,7 +8920,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#673147",
@@ -8076,7 +8931,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#867E36",
@@ -8086,7 +8942,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C08081",
@@ -8096,7 +8953,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#848482",
@@ -8106,7 +8964,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#808000",
@@ -8116,7 +8975,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#6B8E23",
@@ -8126,7 +8986,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#3C341F",
@@ -8136,7 +8997,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9AB973",
@@ -8146,7 +9008,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#353839",
@@ -8156,7 +9019,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#B784A7",
@@ -8166,7 +9030,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF7F00",
@@ -8176,7 +9041,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF7538",
@@ -8186,7 +9052,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF5800",
@@ -8196,7 +9063,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FB9902",
@@ -8206,7 +9074,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFA500",
@@ -8216,7 +9085,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF9F00",
@@ -8226,7 +9096,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF4500",
@@ -8236,7 +9107,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FA5B3D",
@@ -8246,7 +9118,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F8D568",
@@ -8256,7 +9129,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#DA70D6",
@@ -8266,7 +9140,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#F2BDCD",
@@ -8276,7 +9151,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FB4F14",
@@ -8286,7 +9162,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#654321",
@@ -8296,7 +9173,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#414A4C",
@@ -8306,7 +9184,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF6E4A",
@@ -8316,7 +9195,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#002147",
@@ -8326,7 +9206,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#990000",
@@ -8336,7 +9217,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#1CA9C9",
@@ -8346,7 +9228,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#006600",
@@ -8356,7 +9239,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#273BE2",
@@ -8366,7 +9250,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#682860",
@@ -8376,7 +9261,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#BCD4E6",
@@ -8386,7 +9272,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#AFEEEE",
@@ -8396,7 +9283,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#987654",
@@ -8406,7 +9294,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#AF4035",
@@ -8416,7 +9305,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9BC4E2",
@@ -8426,7 +9316,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#DDADAF",
@@ -8436,7 +9327,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#DA8A67",
@@ -8446,7 +9338,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#ABCDEF",
@@ -8456,7 +9349,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#87D3F8",
@@ -8466,7 +9360,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E6BE8A",
@@ -8476,7 +9371,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#EEE8AA",
@@ -8486,7 +9382,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#98FB98",
@@ -8496,7 +9393,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#DCD0FF",
@@ -8506,7 +9404,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F984E5",
@@ -8516,7 +9415,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF99CC",
@@ -8526,7 +9426,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FADADD",
@@ -8536,7 +9437,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#DDA0DD",
@@ -8546,7 +9448,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#DB7093",
@@ -8556,7 +9459,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#96DED1",
@@ -8566,7 +9470,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C9C0BB",
@@ -8576,7 +9481,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#ECEBBD",
@@ -8586,7 +9492,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#BC987E",
@@ -8596,7 +9503,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#AFEEEE",
@@ -8606,7 +9514,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CC99FF",
@@ -8616,7 +9525,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#DB7093",
@@ -8626,7 +9536,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#6F9940",
@@ -8636,7 +9547,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#78184A",
@@ -8646,7 +9558,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#009B7D",
@@ -8656,7 +9569,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFEFD5",
@@ -8666,7 +9580,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E63E62",
@@ -8676,7 +9591,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#50C878",
@@ -8686,7 +9602,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D998A0",
@@ -8696,7 +9613,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#AEC6CF",
@@ -8706,7 +9624,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#836953",
@@ -8716,7 +9635,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CFCFC4",
@@ -8726,7 +9646,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#77DD77",
@@ -8736,7 +9657,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F49AC2",
@@ -8746,7 +9668,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFB347",
@@ -8756,7 +9679,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#DEA5A4",
@@ -8766,7 +9690,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B39EB5",
@@ -8776,7 +9701,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF6961",
@@ -8786,7 +9712,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CB99C9",
@@ -8796,7 +9723,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FDFD96",
@@ -8806,7 +9734,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#800080",
@@ -8816,7 +9745,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#536878",
@@ -8826,7 +9756,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFE5B4",
@@ -8836,7 +9767,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FFCBA4",
@@ -8846,7 +9778,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FFCC99",
@@ -8856,7 +9789,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FFDAB9",
@@ -8866,7 +9800,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FADFAD",
@@ -8876,7 +9811,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#D1E231",
@@ -8886,7 +9822,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#EAE0C8",
@@ -8896,7 +9833,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#88D8C0",
@@ -8906,7 +9844,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B768A2",
@@ -8916,7 +9855,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E6E200",
@@ -8926,7 +9866,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#CCCCFF",
@@ -8936,7 +9877,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#E12C2C",
@@ -8946,7 +9888,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#1C39BB",
@@ -8956,7 +9899,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00A693",
@@ -8966,7 +9910,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#32127A",
@@ -8976,7 +9921,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D99058",
@@ -8986,7 +9932,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F77FBE",
@@ -8996,7 +9943,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#701C1C",
@@ -9006,7 +9954,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CC3333",
@@ -9016,7 +9965,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FE28A2",
@@ -9026,7 +9976,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#EC5800",
@@ -9036,7 +9987,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#CD853F",
@@ -9046,7 +9998,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#8BA8B7",
@@ -9056,7 +10009,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#DF00FF",
@@ -9066,7 +10020,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#000F89",
@@ -9076,7 +10031,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#123524",
@@ -9086,7 +10042,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#45B1E8",
@@ -9096,7 +10053,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C30B4E",
@@ -9106,7 +10064,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FDDDE6",
@@ -9116,7 +10075,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#01796F",
@@ -9126,7 +10086,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#563C0D",
@@ -9136,7 +10097,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FFC0CB",
@@ -9146,7 +10108,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#D74894",
@@ -9156,7 +10119,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FC74FD",
@@ -9166,7 +10130,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFDDF4",
@@ -9176,7 +10141,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D8B2D1",
@@ -9186,7 +10152,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF9966",
@@ -9196,7 +10163,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#E7ACCF",
@@ -9206,7 +10174,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#980036",
@@ -9216,7 +10185,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F78FA7",
@@ -9226,7 +10196,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#93C572",
@@ -9236,7 +10207,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#391285",
@@ -9246,7 +10218,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E5E4E2",
@@ -9256,7 +10229,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#8E4585",
@@ -9266,7 +10240,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#DDA0DD",
@@ -9276,7 +10251,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#5946B2",
@@ -9286,7 +10262,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#5DA493",
@@ -9296,7 +10273,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#86608E",
@@ -9306,7 +10284,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#BE4F62",
@@ -9316,7 +10295,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FF5A36",
@@ -9326,7 +10306,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B0E0E6",
@@ -9336,7 +10317,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF85CF",
@@ -9346,7 +10328,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F58025",
@@ -9356,7 +10339,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#701C1C",
@@ -9366,7 +10350,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#003153",
@@ -9376,7 +10361,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#DF00FF",
@@ -9386,7 +10372,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CC8899",
@@ -9396,7 +10383,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#722F37",
@@ -9406,7 +10394,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#644117",
@@ -9416,7 +10405,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#3B331C",
@@ -9426,7 +10416,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF7518",
@@ -9436,7 +10427,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#800080",
@@ -9446,7 +10438,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9F00C5",
@@ -9456,7 +10449,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A020F0",
@@ -9466,7 +10460,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#69359C",
@@ -9476,7 +10471,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9678B6",
@@ -9486,7 +10482,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#4E5180",
@@ -9496,7 +10493,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FE4EDA",
@@ -9506,7 +10504,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9C51B6",
@@ -9516,7 +10515,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#50404D",
@@ -9526,7 +10526,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9A4EAE",
@@ -9536,7 +10537,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#51484F",
@@ -9546,7 +10548,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#436B95",
@@ -9556,7 +10559,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E8CCD7",
@@ -9566,7 +10570,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A6A6A6",
@@ -9576,7 +10581,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#8E3A59",
@@ -9586,7 +10592,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#5D8AA8",
@@ -9596,7 +10603,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FF355E",
@@ -9606,7 +10614,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#242124",
@@ -9616,7 +10625,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FBAB60",
@@ -9626,7 +10636,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#E30B5D",
@@ -9636,7 +10647,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#915F6D",
@@ -9646,7 +10658,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E25098",
@@ -9656,7 +10669,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B3446C",
@@ -9666,7 +10680,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D68A59",
@@ -9676,7 +10691,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#826644",
@@ -9686,7 +10702,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF33CC",
@@ -9696,7 +10713,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E3256B",
@@ -9706,7 +10724,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#8D4E85",
@@ -9716,7 +10735,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#663399",
@@ -9726,7 +10746,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF0000",
@@ -9736,7 +10757,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#EE204D",
@@ -9746,7 +10768,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F2003C",
@@ -9756,7 +10779,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C40233",
@@ -9766,7 +10790,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#ED2939",
@@ -9776,7 +10801,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#ED1C24",
@@ -9786,7 +10812,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FE2712",
@@ -9796,7 +10823,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A52A2A",
@@ -9806,7 +10834,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#860111",
@@ -9816,7 +10845,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF5349",
@@ -9826,7 +10856,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#E40078",
@@ -9836,7 +10867,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FD3A4A",
@@ -9846,7 +10878,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C71585",
@@ -9856,7 +10889,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#A45A52",
@@ -9866,7 +10900,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#522D80",
@@ -9876,7 +10911,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#000000",
@@ -9886,7 +10922,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#002387",
@@ -9896,7 +10933,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#777696",
@@ -9906,7 +10944,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#004040",
@@ -9916,7 +10955,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#010B13",
@@ -9926,7 +10966,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#010203",
@@ -9936,7 +10977,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F1A7FE",
@@ -9946,7 +10988,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D70040",
@@ -9956,7 +10999,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#0892D0",
@@ -9966,7 +11010,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A76BCF",
@@ -9976,7 +11021,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B666D2",
@@ -9986,7 +11032,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B03060",
@@ -9996,7 +11043,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#444C38",
@@ -10006,7 +11054,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#704241",
@@ -10016,7 +11065,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00CCCC",
@@ -10026,7 +11076,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#8A7F80",
@@ -10036,7 +11087,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#838996",
@@ -10046,7 +11098,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF007F",
@@ -10056,7 +11109,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#F9429E",
@@ -10066,7 +11120,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9E5E6F",
@@ -10076,7 +11131,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#674846",
@@ -10086,7 +11142,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B76E79",
@@ -10096,7 +11153,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E32636",
@@ -10106,7 +11164,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF66CC",
@@ -10116,7 +11175,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#AA98A9",
@@ -10126,7 +11186,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C21E56",
@@ -10136,7 +11197,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#905D5D",
@@ -10146,7 +11208,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#AB4E52",
@@ -10156,7 +11219,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#65000B",
@@ -10166,7 +11230,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#D40000",
@@ -10176,7 +11241,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#BC8F8F",
@@ -10186,7 +11252,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#0038A8",
@@ -10196,7 +11263,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#002366",
@@ -10206,7 +11274,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#4169E1",
@@ -10216,7 +11285,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CA2C92",
@@ -10226,7 +11296,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#7851A9",
@@ -10236,7 +11307,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FADA5E",
@@ -10246,7 +11318,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CE4676",
@@ -10256,7 +11329,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#D10056",
@@ -10266,7 +11340,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E0115F",
@@ -10276,7 +11351,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#9B111E",
@@ -10286,7 +11362,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF0028",
@@ -10296,7 +11373,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#BB6528",
@@ -10306,7 +11384,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E18E96",
@@ -10316,7 +11395,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A81C07",
@@ -10326,7 +11406,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#80461B",
@@ -10336,7 +11417,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#679267",
@@ -10346,7 +11428,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#32174D",
@@ -10356,7 +11439,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B7410E",
@@ -10366,7 +11450,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#DA2C43",
@@ -10376,7 +11461,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00563F",
@@ -10386,7 +11472,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#8B4513",
@@ -10396,7 +11483,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF7800",
@@ -10406,7 +11494,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF6700",
@@ -10416,7 +11505,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#EED202",
@@ -10426,7 +11516,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F4C430",
@@ -10436,7 +11527,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#BCB88A",
@@ -10446,7 +11538,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#23297A",
@@ -10456,7 +11549,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FA8072",
@@ -10466,7 +11560,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FF91A4",
@@ -10476,7 +11571,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C2B280",
@@ -10486,7 +11582,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#967117",
@@ -10496,7 +11593,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#ECD540",
@@ -10506,7 +11604,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#F4A460",
@@ -10516,7 +11615,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FDD9B5",
@@ -10526,7 +11626,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#967117",
@@ -10536,7 +11637,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#92000A",
@@ -10546,7 +11648,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#507D2A",
@@ -10556,7 +11659,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#0F52BA",
@@ -10566,7 +11670,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#0067A5",
@@ -10576,7 +11681,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF4681",
@@ -10586,7 +11692,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CBA135",
@@ -10596,7 +11703,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF2400",
@@ -10606,7 +11714,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FD0E35",
@@ -10616,7 +11725,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FF91AF",
@@ -10626,7 +11736,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFD800",
@@ -10636,7 +11747,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#66FF66",
@@ -10646,7 +11758,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#006994",
@@ -10656,7 +11769,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9FE2BF",
@@ -10666,7 +11780,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#2E8B57",
@@ -10676,7 +11791,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#4BC7CF",
@@ -10686,7 +11802,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#59260B",
@@ -10696,7 +11813,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFF5EE",
@@ -10706,7 +11824,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FFBA00",
@@ -10716,7 +11835,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#704214",
@@ -10726,7 +11846,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#8A795D",
@@ -10736,7 +11857,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#778BA5",
@@ -10746,7 +11868,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFCFF1",
@@ -10756,7 +11879,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#009E60",
@@ -10766,7 +11890,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#8FD400",
@@ -10776,7 +11901,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D98695",
@@ -10786,7 +11912,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#5FA778",
@@ -10796,7 +11923,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FC0FC0",
@@ -10806,7 +11934,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF6FFF",
@@ -10816,7 +11945,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#882D17",
@@ -10826,7 +11956,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#C0C0C0",
@@ -10836,7 +11967,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#ACACAC",
@@ -10846,7 +11978,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#5D89BA",
@@ -10856,7 +11989,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C4AEAD",
@@ -10866,7 +12000,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#BFC1C2",
@@ -10876,7 +12011,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CB410B",
@@ -10886,7 +12022,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FF3855",
@@ -10896,7 +12033,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFDB00",
@@ -10906,7 +12044,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#007474",
@@ -10916,7 +12055,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#87CEEB",
@@ -10926,7 +12066,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CF71AF",
@@ -10936,7 +12077,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#6A5ACD",
@@ -10946,7 +12088,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#708090",
@@ -10956,7 +12099,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#003399",
@@ -10966,7 +12110,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#299617",
@@ -10976,7 +12121,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF6D3A",
@@ -10986,7 +12132,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C84186",
@@ -10996,7 +12143,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#738276",
@@ -11006,7 +12154,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#832A0D",
@@ -11016,7 +12165,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#100C08",
@@ -11026,7 +12176,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#933D41",
@@ -11036,7 +12187,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFFAFA",
@@ -11046,7 +12198,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#CEC8EF",
@@ -11056,7 +12209,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#893843",
@@ -11066,7 +12220,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#757575",
@@ -11076,7 +12231,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9E1316",
@@ -11086,7 +12242,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#1D2951",
@@ -11096,7 +12253,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#807532",
@@ -11106,7 +12264,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#0070B8",
@@ -11116,7 +12275,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D10047",
@@ -11126,7 +12286,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E51A4C",
@@ -11136,7 +12297,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#989898",
@@ -11146,7 +12308,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#009150",
@@ -11156,7 +12319,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E86100",
@@ -11166,7 +12330,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F7BFBE",
@@ -11176,7 +12341,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E60026",
@@ -11186,7 +12352,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00FFFF",
@@ -11196,7 +12363,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#4C2882",
@@ -11206,7 +12374,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#007F5C",
@@ -11216,7 +12385,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#8B5f4D",
@@ -11226,7 +12396,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#0FC0FC",
@@ -11236,7 +12407,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A7FC00",
@@ -11246,7 +12418,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#87FF2A",
@@ -11256,7 +12429,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00FF7F",
@@ -11266,7 +12440,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#007BB8",
@@ -11276,7 +12451,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#4682B4",
@@ -11286,7 +12462,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CC33CC",
@@ -11296,7 +12473,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#5F8A8B",
@@ -11306,7 +12484,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FADA5E",
@@ -11316,7 +12495,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#990000",
@@ -11326,7 +12506,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#4F666A",
@@ -11336,7 +12517,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#E4D96F",
@@ -11346,7 +12528,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FC5A8D",
@@ -11356,7 +12539,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#914E75",
@@ -11366,7 +12550,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF404C",
@@ -11376,7 +12561,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFCC33",
@@ -11386,7 +12572,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#F2F27A",
@@ -11396,7 +12583,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#E3AB57",
@@ -11406,7 +12594,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FAD6A5",
@@ -11416,7 +12605,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FD5E53",
@@ -11426,7 +12616,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CF6BA9",
@@ -11436,7 +12627,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A83731",
@@ -11446,7 +12638,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D2B48C",
@@ -11456,7 +12649,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#F94D00",
@@ -11466,7 +12660,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#F28500",
@@ -11476,7 +12671,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FFCC00",
@@ -11486,7 +12682,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E4717A",
@@ -11496,7 +12693,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FB4D46",
@@ -11506,7 +12704,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#483C32",
@@ -11516,7 +12715,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#8B8589",
@@ -11526,7 +12726,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D0F0C0",
@@ -11536,7 +12737,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F88379",
@@ -11546,7 +12748,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F4C2C2",
@@ -11556,7 +12759,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#008080",
@@ -11566,7 +12770,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#367588",
@@ -11576,7 +12781,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#99E6B3",
@@ -11586,7 +12792,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00827F",
@@ -11596,7 +12803,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CF3476",
@@ -11606,7 +12814,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#CD5700",
@@ -11616,7 +12825,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E2725B",
@@ -11626,7 +12836,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D8BFD8",
@@ -11636,7 +12847,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#DE6FA1",
@@ -11646,7 +12858,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FC89AC",
@@ -11656,7 +12869,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#0ABAB5",
@@ -11666,7 +12880,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E08D3C",
@@ -11676,7 +12891,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#DBD7D2",
@@ -11686,7 +12902,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#EEE600",
@@ -11696,7 +12913,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF6347",
@@ -11706,7 +12924,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#746CC0",
@@ -11716,7 +12935,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FFC87C",
@@ -11726,7 +12946,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FD0E35",
@@ -11736,7 +12957,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#808080",
@@ -11746,7 +12968,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00755E",
@@ -11756,7 +12979,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CDA4DE",
@@ -11766,7 +12990,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#0073CF",
@@ -11776,7 +13001,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#3E8EDE",
@@ -11786,7 +13012,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF878D",
@@ -11796,7 +13023,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#DEAA88",
@@ -11806,7 +13034,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#B57281",
@@ -11816,7 +13045,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#40E0D0",
@@ -11826,7 +13056,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#00FFEF",
@@ -11836,7 +13067,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A0D6B4",
@@ -11846,7 +13078,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00C5CD",
@@ -11856,7 +13089,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#8A9A5B",
@@ -11866,7 +13100,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FAD6A5",
@@ -11876,7 +13111,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#6F4E37",
@@ -11886,17 +13122,18 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#7C4848",
             "name": "Tuscan Red",
             "option": [
                 "Tuscan Red",
-                "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A67B5B",
@@ -11906,7 +13143,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C09999",
@@ -11916,7 +13154,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#8A496B",
@@ -11926,7 +13165,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#66023C",
@@ -11936,7 +13176,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#0033AA",
@@ -11946,7 +13187,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D9004C",
@@ -11956,7 +13198,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#8878C3",
@@ -11966,7 +13209,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#536895",
@@ -11976,7 +13220,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFB300",
@@ -11986,7 +13231,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#3CD070",
@@ -11996,7 +13242,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#3F00FF",
@@ -12006,7 +13253,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#4166F5",
@@ -12016,7 +13264,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF6FFF",
@@ -12026,7 +13275,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FC6C85",
@@ -12036,7 +13286,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#635147",
@@ -12046,7 +13297,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FFDDCA",
@@ -12056,7 +13308,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#5B92E5",
@@ -12066,7 +13319,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B78727",
@@ -12076,7 +13330,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFFF66",
@@ -12086,7 +13341,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#014421",
@@ -12096,7 +13352,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#7B1113",
@@ -12106,7 +13363,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#AE2029",
@@ -12116,7 +13374,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E1AD21",
@@ -12126,7 +13385,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#004F98",
@@ -12136,7 +13396,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#990000",
@@ -12146,7 +13407,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFCC00",
@@ -12156,7 +13418,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F77F00",
@@ -12166,7 +13429,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D3003F",
@@ -12176,7 +13440,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#664228",
@@ -12186,7 +13451,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F3E5AB",
@@ -12196,7 +13462,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#F38FA9",
@@ -12206,7 +13473,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C5B358",
@@ -12216,7 +13484,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C80815",
@@ -12226,7 +13495,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#43B3AE",
@@ -12236,7 +13506,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#E34234",
@@ -12246,7 +13517,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#D9381E",
@@ -12256,7 +13528,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#A020F0",
@@ -12266,7 +13539,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#74BBFB",
@@ -12276,7 +13550,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#6666FF",
@@ -12286,7 +13561,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#64E986",
@@ -12296,7 +13572,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFB077",
@@ -12306,7 +13583,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFDFBF",
@@ -12316,7 +13594,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFFFBF",
@@ -12326,7 +13605,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#8F00FF",
@@ -12336,7 +13616,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#7F00FF",
@@ -12346,7 +13627,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#8601AF",
@@ -12356,7 +13638,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#EE82EE",
@@ -12366,7 +13649,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#324AB2",
@@ -12376,7 +13660,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#F75394",
@@ -12386,7 +13671,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#40826D",
@@ -12396,7 +13682,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#009698",
@@ -12406,7 +13693,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#7C9ED9",
@@ -12416,7 +13704,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CC9900",
@@ -12426,7 +13715,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#922724",
@@ -12436,7 +13726,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9F1D35",
@@ -12446,7 +13737,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#DA1D81",
@@ -12456,7 +13748,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00AAEE",
@@ -12466,7 +13759,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CC0033",
@@ -12476,7 +13770,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF9900",
@@ -12486,7 +13781,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A6D608",
@@ -12496,7 +13792,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00CC33",
@@ -12506,7 +13803,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#B80CE3",
@@ -12516,7 +13814,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF5F00",
@@ -12526,7 +13825,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFA000",
@@ -12536,7 +13836,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CC00FF",
@@ -12546,7 +13847,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF006C",
@@ -12556,7 +13858,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F70D1A",
@@ -12566,7 +13869,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#DF6124",
@@ -12576,7 +13880,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#00CCFF",
@@ -12586,7 +13891,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#F07427",
@@ -12596,7 +13902,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFA089",
@@ -12606,7 +13913,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#E56024",
@@ -12616,7 +13924,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9F00FF",
@@ -12626,7 +13935,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFE302",
@@ -12636,7 +13946,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#CEFF00",
@@ -12646,7 +13957,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#34B233",
@@ -12656,7 +13968,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#004242",
@@ -12666,7 +13979,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A4F4F9",
@@ -12676,7 +13990,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#7C98AB",
@@ -12686,7 +14001,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#645452",
@@ -12696,7 +14012,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#F5DEB3",
@@ -12706,7 +14023,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FFFFFF",
@@ -12716,7 +14034,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#F5F5F5",
@@ -12726,7 +14045,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A2ADD0",
@@ -12736,7 +14056,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#D470A2",
@@ -12746,7 +14067,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF43A4",
@@ -12756,7 +14078,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FC6C85",
@@ -12766,7 +14089,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FD5800",
@@ -12776,7 +14100,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A75502",
@@ -12786,7 +14111,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#722F37",
@@ -12796,7 +14122,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#673147",
@@ -12806,7 +14133,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FF007C",
@@ -12816,7 +14144,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#A0E6FF",
@@ -12826,7 +14155,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#56887D",
@@ -12836,7 +14166,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#C9A0DC",
@@ -12846,7 +14177,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#C19A6B",
@@ -12856,7 +14188,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#738678",
@@ -12866,7 +14199,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#0F4D92",
@@ -12876,7 +14210,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#1C2841",
@@ -12886,7 +14221,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFFF00",
@@ -12896,7 +14232,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FCE883",
@@ -12906,7 +14243,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#EFCC00",
@@ -12916,7 +14254,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFD300",
@@ -12926,7 +14265,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FEDF00",
@@ -12936,7 +14276,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFEF00",
@@ -12946,7 +14287,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FEFE33",
@@ -12956,7 +14298,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#9ACD32",
@@ -12966,7 +14309,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#FFAE42",
@@ -12976,7 +14320,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFF000",
@@ -12986,7 +14331,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#FFF700",
@@ -12996,7 +14342,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#0014A8",
@@ -13006,7 +14353,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         },
         {
             "hex": "#2C1608",
@@ -13016,7 +14364,8 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "hard"
         },
         {
             "hex": "#39A78E",
@@ -13026,9 +14375,12 @@ export class AppConstants{
                 "O2",
                 "O3",
                 "O4"
-            ]
+            ],
+            "level": "easy"
         }
     ]
+
+    
 
   
 }
