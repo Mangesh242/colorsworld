@@ -18,6 +18,14 @@ export class MainComponent {
   seasons: string[] = [];
   score:number=0;
   ngOnInit(): void {
+    let tempData=[];
+    AppConstants.colorsList.forEach(item=>{
+        console.log(item);
+        let obj:any={};
+        
+        debugger;
+        obj["level"]="easy";
+    })
       this.nextColor();
       
   }
@@ -30,7 +38,7 @@ export class MainComponent {
   result:string|undefined;
   correctOption:String|undefined;
 
-  countChange(event:any) {    
+  countChange(event:any) {  
     this.myCount = event;
     if(this.myCount==0){
       // this.choosedColor=undefined;
@@ -41,6 +49,7 @@ export class MainComponent {
   }
 
   openDialog() {
+    // debugger;
     this.resultCheck();
 
     this.displayTimer=false;
@@ -86,7 +95,7 @@ export class MainComponent {
   }
 
   private resultCheck() {
-    debugger;
+    
     if (this.choosedColor !== undefined) {
       if (this.choosedColor === this.currentObject["name"]) {
         this.result="Correct";
@@ -102,4 +111,5 @@ export class MainComponent {
    shuffle(array:any) {
     return [...array].sort(() => Math.random() - 0.5);
   }
+
 }

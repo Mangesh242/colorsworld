@@ -1,4 +1,9 @@
 
+<div *ngIf="this.score!=0" class="pyro">
+    <div class="before"></div>
+    <div class="after"></div>
+</div>
+
 <div style="padding:10px" fxLayout="column"> 
     <div fxFlex="40px">
         <div fxFlex="38">
@@ -14,7 +19,7 @@
 </div>
 
 <div fxFlex="40px" fxLayout="row" *ngIf="this.score!=0">
-    <div fxFlex="38">
+    <div fxFlex="40">
 
     </div>
     <div fxFlex="20">

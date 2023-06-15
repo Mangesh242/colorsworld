@@ -23,8 +23,9 @@ export class TimerComponent {
   startTimer() {
     this.timer = setInterval(() => {
       this.seconds--;
+      this.change.emit(this.seconds);
       if (this.seconds === 0) {
-        this.change.emit(this.seconds);
+        
         this.seconds=10;
       }
     }, 1000);
