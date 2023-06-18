@@ -28,7 +28,6 @@ export class ResultDialogComponent implements OnInit {
   }
   ngOnInit():void{
     
-    
     if(this.res !== undefined && this.res.toLowerCase()==="correct"){
       
     if(this.time>5){

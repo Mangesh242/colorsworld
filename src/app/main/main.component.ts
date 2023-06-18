@@ -60,7 +60,7 @@ export class MainComponent {
   countChange(event:any) {  
     this.myCount = event;
     if(this.myCount==0){
-      // this.choosedColor=undefined;
+      //this.choosedColor=undefined;
       this.displayTimer=false;
      this.openDialog();
       
@@ -70,7 +70,6 @@ export class MainComponent {
   openDialog() {
     // debugger;
     this.resultCheck();
-
     this.displayTimer=false;
     this.dialog.open(ResultDialogComponent,{
       width:'400px',
@@ -116,9 +115,14 @@ export class MainComponent {
   }
 
   private resultCheck() {
-      if (this.choosedColor !== undefined && this.choosedColor === this.currentObject["colorName"]) {
-        this.result="Correct";
-        this.correctOption=this.choosedColor;
+    debugger;
+      if (this.choosedColor !== undefined) {
+        if(this.choosedColor === this.currentObject["colorName"]){
+          this.result="Correct";
+        }else{
+          this.result="InCorrect";
+          this.correctOption=this.currentObject["colorName"];
+        }
       }
       else{
         this.result="InCorrect";
@@ -127,8 +131,6 @@ export class MainComponent {
         }
         this.correctOption=this.currentObject["colorName"];
       }
-
-  
   }
 
    shuffle(array:any) {
