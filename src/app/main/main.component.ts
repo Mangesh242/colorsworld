@@ -10,7 +10,7 @@ import { ResultDialogComponent } from '../result-dialog/result-dialog.component'
 })
 export class MainComponent {
   counter=-1;
-  appColorsList=this.shuffle(AppConstants.colorsList);
+  appColorsList=this.shuffle(AppConstants.colorsData);
   backgroundColr="";
   currentObject:any={}
   local:any=[];
@@ -109,14 +109,14 @@ export class MainComponent {
       this.counter=0;
     }
     this.currentObject=this.appColorsList[this.counter];
-    this.backgroundColr=this.currentObject["hex"];
-    this.seasons=this.currentObject["option"];
+    this.backgroundColr=this.currentObject["hexadecimalCode"];
+    this.seasons=this.currentObject["options"];
     this.seasons=this.shuffle(this.seasons);
     
   }
 
   private resultCheck() {
-      if (this.choosedColor !== undefined && this.choosedColor === this.currentObject["name"]) {
+      if (this.choosedColor !== undefined && this.choosedColor === this.currentObject["colorName"]) {
         this.result="Correct";
         this.correctOption=this.choosedColor;
       }
@@ -125,7 +125,7 @@ export class MainComponent {
         if(this.myCount==0){
           this.result=undefined;
         }
-        this.correctOption=this.currentObject["name"];
+        this.correctOption=this.currentObject["colorName"];
       }
 
   
