@@ -18,33 +18,6 @@ export class MainComponent {
   seasons: string[] = [];
   score:number=0;
   ngOnInit(): void {
-    let tempData=[];
-    // AppConstants.colorsList.forEach((item,index)=>{
-    //     let name=item.name.toLowerCase();
-    //     let options=[];
-    //     options.push(name);
-
-    //     for(let i=index+1;i<this.appColorsList.length;i++){
-    //         let colorName:string=this.appColorsList[i].name.toLowerCase(); 
-    //       if(colorName.includes(name) || name.includes(colorName)){
-    //         console.log("Found equal names");
-    //         debugger;
-    //         if(colorName!==undefined){
-              
-    //           options.push(colorName);
-    //           if(options.length=4){
-    //             this.appColorsList[i].option=options;
-    //             console.log("Colors options: "+this.appColorsList[i].option + " "+index )
-              
-    //             break;
-    //           }
-    //         }
-              
-    //       }
-          
-    //     }
-        
-    // })
       this.nextColor();
       
   }
@@ -68,18 +41,20 @@ export class MainComponent {
   }
 
   openDialog() {
-    // debugger;
+    
     this.resultCheck();
     this.displayTimer=false;
     this.dialog.open(ResultDialogComponent,{
       width:'400px',
-      height:'200px',
+      height:'250px',
       data: { 
              totalScore : this.score,
              time:this.myCount,
              mode: AppConstants.mode.timeup,
              res:this.result,
-             name:this.correctOption
+             name:this.correctOption,
+             link:this.currentObject["colorInfoLink"],
+             hexCode:this.backgroundColr,
             },
             disableClose: true
     }).afterClosed().subscribe(
@@ -115,13 +90,14 @@ export class MainComponent {
   }
 
   private resultCheck() {
-    debugger;
+    
       if (this.choosedColor !== undefined) {
+        this.correctOption=this.currentObject["colorName"];
+
         if(this.choosedColor === this.currentObject["colorName"]){
           this.result="Correct";
         }else{
-          this.result="InCorrect";
-          this.correctOption=this.currentObject["colorName"];
+          this.result="InCorrect"
         }
       }
       else{

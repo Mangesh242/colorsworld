@@ -26,33 +26,59 @@
     {{score}}
 </div>
 
-<div fxFlex="50px" fxLayout="row" *ngIf="this.score!=0">
-    <div fxFlex="42">
+<div fxFlex="50px" faLayout="row">
+    <div fxFlex="30">
 
     </div>
-    <div fxFlex="20">
-        <button (click)="onNextClick('next')" mat-raised-button  color="secondary">Next</button>
+    <div fxFlex="30" [style.background]="hexCode" style="border-radius: 4px;">
+
     </div>
+    <div fxFlex="30">
+        <mat-icon style="cursor:pointer" [matTooltip]="toolTip" 
+        (click)="takeMeToPage()">info</mat-icon>
+    </div>
+   
+</div>
+
+ <br/>
+
+<div fxFlex="50px" fxLayout="row" *ngIf="this.score!=0">
+  
+    <div fxFlex="5"></div>
     
+    <div fxFlex="90" (click)="onNextClick('next')"style="background-color: rgb(199, 209, 209);
+    cursor: pointer;
+    padding:10px;
+    border-radius: 10px;">
+        <!-- <button (click)="onNextClick('next')" mat-raised-button  color="secondary"></button> -->
+       <span style="font-size:25px;margin-left:105px"> Next </span>
+    </div>
+
+    
+
 </div>
 
 
-<div *ngIf="this.score==0">
-    <div fxFlex="25">
-
-    </div>
-    <div fxFlex="25">
-        <button (click)="onNextClick('retry')" mat-raised-button  color="secondary">Retry</button>
+<div fxFlex="50px" *ngIf="this.score==0">
+ 
+    <div fxFlex="40" style="background-color: rgb(199, 209, 209);cursor: pointer;border-radius: 10px;" (click)="onNextClick('retry')">
+        <!-- <button (click)="onNextClick('retry')" mat-raised-button  color="secondary"></button> -->
+        
+        <mat-icon style="font-size: 30px; margin-left:52px;
+            margin-top: 10px;" matTooltip="Retry again..">refresh</mat-icon>
     </div> 
-
-    <div fxFlex="25">
-        <button (click)="onNextClick('next')" mat-raised-button  color="secondary">Next</button>
-    </div>
-    
-   
-    <div fxFlex="25">
+    <div fxFlex="20">
 
     </div>
+
+    <div fxFlex="40" (click)="onNextClick('next')" style="background-color: rgb(199, 209, 209);cursor: pointer;
+    border-radius: 10px;">
+        <!-- <button (click)="onNextClick('next')" mat-raised-button  color="secondary"></button> -->
+        <mat-icon style="font-size: 30px; margin-left:52px;
+            margin-top: 10px;" matTooltip="Next..">arrow_forward</mat-icon>
+        
+    </div>
+
     
 </div>
  

@@ -18,6 +18,7 @@ import { MainComponent } from './main/main.component';
 import { TimerComponent } from './timer/timer.component';
 import { ResultDialogComponent } from './result-dialog/result-dialog.component';
 import { MatDialogModule, MatDialogRef } from '@angular/material/dialog';
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 
 @NgModule({
@@ -35,6 +36,7 @@ import { MatDialogModule, MatDialogRef } from '@angular/material/dialog';
     MatButtonModule,
     MatIconModule,
     MatCardModule,
+    MatTooltipModule,
     FlexLayoutModule,
     MatRadioModule,
     AppRoutingModule,

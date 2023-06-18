@@ -45,13 +45,15 @@ width: 100%; background-color: rgb(226, 216, 235);">
     <!-- <div>Your Selected Color is: {{choosedColor}}</div> -->
  </div>
 
-  <div fxFlex="8" fxLayout="Row" style="padding: 10px;">
+  <div fxFlex="9" fxLayout="Row" style="padding: 10px;">
  
-    <div (click)="openDialog()" style="background-color: aqua; width: 100%;border-radius: 4px;position: relative;">
+    <div (click)="openDialog()" style="background-color: rgb(199, 209, 209);
+     width: 100%;border-radius: 4px;position: relative;">
           <div style="position: absolute;
           top: 100%;
-          left: 54%;
-          margin: -28px 0 0 -50px;">Submit</div> 
+          left: 50%;
+          font-size:25px;
+          margin: -38px 0 0 -50px;">Submit</div> 
     </div>
     <!-- <div *ngIf="choosedColor!==undefined">
         <button (click)="openDialog()" mat-raised-button  color="primary" style="  width: 100%!important;

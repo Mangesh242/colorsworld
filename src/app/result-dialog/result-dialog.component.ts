@@ -15,6 +15,9 @@ export class ResultDialogComponent implements OnInit {
   msg:any;
   res:string;
   name:string | undefined;
+  link:string|undefined;
+  hexCode: any;
+  toolTip:string="msg";
   //based on time he took for choose assign score accordingly.
 
   constructor(public MatDialogRef:MatDialogRef<ResultDialogComponent>,
@@ -25,9 +28,13 @@ export class ResultDialogComponent implements OnInit {
     this.time=data.time;
     this.res=data.res;
     this.name=data.name;
+      
+    this.link=data.link;
+    this.hexCode=data.hexCode;
   }
   ngOnInit():void{
     
+    this.toolTip= "Click for more information on color "+this.name;
     if(this.res !== undefined && this.res.toLowerCase()==="correct"){
       
     if(this.time>5){
@@ -61,6 +68,11 @@ export class ResultDialogComponent implements OnInit {
       this.MatDialogRef.close({score:this.score,action:"retry"});
     }
     
+  }
+
+  takeMeToPage(){
+    debugger;
+    window.open(this.link,'_blank'); 
   }
 
 }
