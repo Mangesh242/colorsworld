@@ -1,6 +1,6 @@
 # Live Demo
 
-(https://mangesh242.github.io/colorsworld/)
+https://mangesh242.github.io/colorsworld/
 
 # Colors
 
