@@ -66,7 +66,6 @@ export class MainComponent {
           this.nextColor();
         }
         else{
-          
           this.seasons=this.shuffle(this.seasons);
         }
         
