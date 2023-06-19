@@ -60,13 +60,15 @@ export class MainComponent {
     }).afterClosed().subscribe(
       (res)=>{
         if(res!==undefined){
-
         this.myCount=10;
         this.score+=res.score;
         if(res.action == 'next'){
           this.nextColor();
         }
-        
+        else{
+          
+          this.seasons=this.shuffle(this.seasons);
+        }
         
         this.displayTimer=true;
         this.choosedColor=undefined;
