@@ -43,8 +43,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     BrowserAnimationsModule,
     FormsModule,
     NgFor,
-    MatDialogModule
-
+    MatDialogModule,
   
   ],
   providers: [],

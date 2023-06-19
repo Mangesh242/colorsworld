@@ -6,6 +6,10 @@ export class AppConstants{
         timeup:"timeup"
     }
 
+    public static title= 'Colors World';
+
+    public static applicationURL="https://mangesh242.github.io/colorsworld/";
+
 
     public static colorsData=[
       {
