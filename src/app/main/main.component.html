@@ -1,5 +1,5 @@
 
-<div fxLayout="column" style="height: 99vh;
+<div fxLayout="column" style="height: 98vh;
 width: 100%; background-color: rgb(226, 216, 235);">
   <div fxFlex="7">
     <app-toolbar/>
@@ -48,18 +48,14 @@ width: 100%; background-color: rgb(226, 216, 235);">
   <div fxFlex="9" fxLayout="Row" style="padding: 10px;">
  
     <div (click)="openDialog()" style="background-color: rgb(248, 248, 240);
-     width: 100%;border-radius: 4px;position: relative;cursor: pointer;">
+     width: 100%;border-radius: 4px;position: relative;cursor: pointer;border: 1px solid;">
           <div style="position: absolute;
           top: 100%;
           left: 50%;
           font-size:25px;
           margin: -38px 0 0 -50px;">Submit</div> 
     </div>
-    <!-- <div *ngIf="choosedColor!==undefined">
-        <button (click)="openDialog()" mat-raised-button  color="primary" style="  width: 100%!important;
-        min-width: unset!important;">Submit</button>
-        </div>
-     -->
+   
   </div>
   
 </div>
